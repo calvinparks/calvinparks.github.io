@@ -1,0 +1,15 @@
+[
+  {
+    "clickThrough":["nolink","nolink","nolink"],
+    "imagePath": ["./assets/images/mcCalculator.jpg","./assets/images/mcMP3Picture.jpg","./assets/images/burgerKing.jpg"],
+    "title": ["McDonalds","McDonalds","Burger King"],
+    "description": ["Producer and Developer for Adobe Flash AS3 based Calculator.","Producer and Developer for McDonald's interactive gadgets for Happy Meal premium. Flash AS3, XML","Developer for Burger King kid's meal MP3 download and music streaming website. Flash, AS3, XML"]
+  },
+  {
+    "clickThrough":["nolink","http://www.calvinparks.com/harpercollege/CourseGuideSystem_Instructions%20PC.pdf","nolink"],
+    "imagePath": ["./assets/images/pressureWash.jpg","./assets/images/harpercollege.jpg","./assets/images/blank.png"],
+    "title": ["Power Wash","Harper College","-"],
+    "description": ["Animator & Developer for animated menu system with parallax. Adobe Flash timeline and AS3.","Created automated system to generate PDF course guide. InDesign, ExtendScript, JavaScript, JSX, XML, AppleScript, VBScript",""]
+  }
+
+]
