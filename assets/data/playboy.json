@@ -1,0 +1,32 @@
+[
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "imagePath": ["./assets/images/playboyPokerGame.jpg","./assets/images/dancingGirls.jpg","./assets/images/PlayboyHqGame.jpg"],
+    "videoPosterPath": ["./assets/video/PlayboyGames.flv.jpg","./assets/video/PlayboyGames.flv.jpg","./assets/video/PlayboyGames.flv.jpg"],
+    "videoPathMp4": ["./assets/video/PlayboyGames.flv.m4v","./assets/video/PlayboyGames.flv.m4v","./assets/video/PlayboyGames.flv.m4v"],
+    "videoPathWebm": ["./assets/video/PlayboyGames.flv.webm","./assets/video/PlayboyGames.flv.webm","./assets/video/PlayboyGames.flv.webm"],
+    "videoPathOgg": ["./assets/video/PlayboyGames.flv.ogv","./assets/video/PlayboyGames.flv.ogv","./assets/video/PlayboyGames.flv.ogv"],
+    
+    "title": ["Playmate Poker","Dancing Game","Trivia"],
+    "description": ["Developer Texas Hold'em Game. Adobe Flash AS3, PhotoShop.","Developer, Game Designer, Game Concept, Storyboard Creation, Project management, Adobe Flash AS3. XML, Adobe Premier Video Editing.","Developer for Multi-Quiz Engine. Adobe Flash AS3, XML."]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "imagePath": ["./assets/images/playboyStripTacToe.jpg","./assets/images/rebounderGame.jpg","./assets/images/playboyBreakOut.jpg"],
+    "videoPosterPath": ["./assets/video/PlayboyGames.flv.jpg","./assets/video/PlayboyGames.flv.jpg","./assets/video/PlayboyGames.flv.jpg"],
+    "videoPathMp4": ["./assets/video/PlayboyGames.flv.m4v","./assets/video/PlayboyGames.flv.m4v","./assets/video/PlayboyGames.flv.m4v"],
+    "videoPathWebm": ["./assets/video/PlayboyGames.flv.webm","./assets/video/PlayboyGames.flv.webm","./assets/video/PlayboyGames.flv.webm"],
+    "videoPathOgg": ["./assets/video/PlayboyGames.flv.ogv","./assets/video/PlayboyGames.flv.ogv","./assets/video/PlayboyGames.flv.ogv"],    "title": ["Strip Tac Toe","Pong Game","Breakout Game"],
+    "description": ["Developer Tic-Tac-Toe game Adobe Flash AS3.","Developer, Game Designer, Game concepting, Physics engine development, Adobe Flash AS2.","Developer Game Designer. Physics engine development, Adobe Flash AS2. "]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "imagePath": ["./assets/images/playmateGame.jpg","./assets/images/cybergirl.jpg","./assets/images/playboyMatchGame.jpg"],
+    "videoPosterPath": ["./assets/video/PlayboyGames.flv.jpg","./assets/video/PlayboyGames.flv.jpg","./assets/video/PlayboyGames.flv.jpg"],
+    "videoPathMp4": ["./assets/video/PlayboyGames.flv.m4v","./assets/video/PlayboyGames.flv.m4v","./assets/video/PlayboyGames.flv.m4v"],
+    "videoPathWebm": ["./assets/video/PlayboyGames.flv.webm","./assets/video/PlayboyGames.flv.webm","./assets/video/PlayboyGames.flv.webm"],
+    "videoPathOgg": ["./assets/video/PlayboyGames.flv.ogv","./assets/video/PlayboyGames.flv.ogv","./assets/video/PlayboyGames.flv.ogv"],    "title": ["Name Game","Undress Game","Match Game"],
+    "description": ["Developer, Game Designer Adobe Flash AS2, XML.","Developer, Game Designer Adobe Flash AS3. ","Developer, Game Designer Adobe Flash, AS3, XML."]
+  }
+
+]
