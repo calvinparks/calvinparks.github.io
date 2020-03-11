@@ -1,0 +1,14 @@
+[
+  {
+    "clickThrough":["https://web.archive.org/web/20130504205555/http://digitalaisle.com:80/","https://web.archive.org/web/20130504205555/http://digitalaisle.com:80/","https://www.facebook.com/digitalaisle/"],
+    "imagePath": ["./assets/images/barscreenshot.jpg","./assets/images/wipeAndWin.jpg","./assets/images/hpKiosk.jpg"],
+    "title": ["Diageo","Digital Aisle","Hewlett Packard"],
+    "description": ["Developer Diageo's Virtual Bartender. The POS Kiosk is currently deployed nationally in grocery retailers. Features Includes:Brand history, Mixing instructions,Party ingredient calculator,Party planner,Email recipes. Adobe Air AS3, Adobe Air, FireCast, PHP.","Developer for Adobe Air AS3 based WipeAndWin Game for Digital Asile Kiosk.","Developer of avatar controller for Hewlett Packard Digital Sales Agent. Adobe Air, AS3"]
+  },
+  {
+    "clickThrough":["https://www.facebook.com/digitalaisle/","https://www.facebook.com/digitalaisle/","nolink"],
+    "imagePath": ["./assets/images/virtualKioskKeyboard.jpg","./assets/images/quiz.jpg","./assets/images/blank335.png"],
+    "title": ["Scrubbing Bubbles","Digital Aisle","-"],
+    "description": ["Developer for interactive touch screen kiosk. Deployed in Home Depot and Safeway retail stores. Adobe Air, AS2, PHP Home Depot.","Developer for Adobe Air AS3 based Trivia Game for Digital Asile Kiosk.",""]
+  }
+]
