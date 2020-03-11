@@ -1,0 +1,9 @@
+[
+  {
+    "clickThrough":["https://web.archive.org/web/20160419132736/http://www.facebooth.tv/","https://www.facebook.com/MazolaBrand/","/nolink"],
+    "imagePath": ["./assets/images/faceBoothTV2.jpg","./assets/images/mazolla.jpg","./assets/images/blank335.png"],
+    "title": ["Facebooth TV","Mazolla Oil","-"],
+    "description": ["Developer and Designer Picture, Film Strip, and video capture Kiosk. Allows users to post to Facebook. PHP, FaceBook API, Adobe Air, AS3, Wowza Media Server.","Developer for Application Page using JavaScript, HTML, WuFoo Widgets.",""]
+  }
+
+]
