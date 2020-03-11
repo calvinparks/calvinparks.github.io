@@ -1,0 +1,9 @@
+[
+  {
+    "clickThrough":["https://www.bswift.com","http://www.wilson.com/en-us","/nolink"],
+    "imagePath": ["./assets/images/bswift.png","./assets/images/wilson.jpg","./assets/images/blank335.png"],
+    "title": ["BSwift","Wilson Sports","-"],
+    "description": ["Developer for data visualization dashboard. Animated charts are generated using realtime data that the user can manipulate.","Developer for animated survey and advice system which help players choose the best ball tailored to their own unique skill set.",""]
+  }
+
+]
