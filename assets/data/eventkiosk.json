@@ -1,0 +1,9 @@
+[
+  {
+    "clickThrough":["/nolink","/nolink","/nolink"],
+    "imagePath": ["./assets/images/mcDonaldsKiosk.jpg","./assets/images/disney.jpg","./assets/images/blank335.png"],
+    "title": ["McDonalds","Disney","-"],
+    "description": ["Developer for Training Kiosk for McDonalds Convention. Built in Adobe Air, PhotoShop","Developer for For Disney and Hewlett Packard prototype for an interactive 360-degree map system.",""]
+  }
+
+]
