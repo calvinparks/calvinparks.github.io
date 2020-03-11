@@ -1,0 +1,15 @@
+[
+  {
+    "clickThrough":["https://www.northropgrumman.com/MediaResources/MediaKits/IITSEC/Documents/JointKnowledgeOnline.pdf","http://www.gorlm.com/","https://www.abelsontaylor.com/"],
+    "imagePath": ["./assets/images/DeptOfDefenceJointKnowledgeOnline.jpg","./assets/images/bpoil.jpg","./assets/images/mycamine.jpg"],
+    "title": ["Dept of Defense","Trial Graphix","Mycamine"],
+    "description": ["Developer for the Department of Defense online joint training website. JKO provides continuous, career-long development for staffs, Combatant Commands, Combat Support Agencies, and the Services. Adobe Animate, Adobe Photoshop, Adobe Illustrator.","Animator for BP Oil Spill Tutorial Aired on CSPAN. Adobe Flash","Developer for Video Player inside Mycamine IPad Pharmacutical Training APP slide content. HTML5, CSS3, JavaScript JQuery."]
+  },
+  {
+    "clickThrough":["http://www.freshbrainideas.com/","http://www.freshbrainideas.com/","http://www.freshbrainideas.com/"],
+    "imagePath": ["./assets/images/freshBrain5.jpg","./assets/images/freshbrain3.jpg","./assets/images/freshbrain2.jpg"],
+    "title": ["Fresh Brain","Fresh Brain","Fresh Brain"],
+    "description": ["Developer for Medical Staff E-Learning Application. (Label Solitair Game): User plays a card game while learn proper labeling technique. Flash AS3, TweenMax, Fireworks.","Developer for Medical Staff E-Learning Application. The Training tool consisted of video presentation and 4 games; Medical Labeling Quiz, Solitaire, Match Game, Test Tube Scanner.","Developer for Medical Staff E-Learning Application. (Qiuz Game): The user must select the correct answer from multiple choices. Flash AS3, TweenMax, Fireworks."]
+  }
+
+]
