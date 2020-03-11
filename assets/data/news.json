@@ -1,0 +1,231 @@
+
+[
+  {
+    "clickThrough":["/misc"],
+    "imagePath": ["./assets/images/newsharperCollege.png"],
+    "date": ["May 2019"],
+    "description": ["Created automation system to generate student course guide."]
+  },
+  {
+    "clickThrough":["/noLink"],
+    "imagePath": ["./assets/images/news_harvardX.png"],
+    "date": ["January 2019"],
+    "description": ["Enrolled in a 9 classes, on-line curriculium and final Capston Project."]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_stanford_survey.png"],
+    "date": ["Febuary 2018"],
+    "description": ["Developed Custom MailChimp responsive templates. -HTML5, CSS3"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_aptiom.png"],
+    "date": ["October 2017"],
+    "description": ["Developed content for Salesforce's Veeva platform. -HTML5, CSS"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_trunkClub.png"],
+    "date": ["August 2017"],
+    "description": ["Developed banner ads for Nordstum's Trunk Club. -Adobe Anmate"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_nextlot.png"],
+    "date": ["January 2016"],
+    "description": ["Developer for Real-Time auction App. -Java, Apache-Tomcat Flex"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_libertyMutual.png"],
+    "date": ["June 2016"],
+    "description": ["Inkling Document & Template Creation. -HTML5, CSS, SASS"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/newsPatentPending.png"],
+    "date": ["March 2015"],
+    "description": ["Life-like avatar content generator submitted to U.S. Patent office"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_pam.png"],
+    "date": ["August 2014"],
+    "description": ["Conagra Server Setup & Programming. -Java, Apache-Tomcat, Linux"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_Sears2.png"],
+    "date": ["May 2014"],
+    "description": ["Animation and Programming for Sears banner ads. -Adobe Flash, Greensock, AS3"]
+  },{
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/dancemachine.png"],
+    "date": ["November 2013"],
+    "description": ["Dancing life-like Avatar music visualizer. -Design and development."]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_craftsman.png"],
+    "date": ["March 2013"],
+    "description": ["Research and Design consultant for user-generated video App."]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_sony_banner.png"],
+    "date": ["December 2012"],
+    "description": ["Developed SonyCard email. -HTML, Table based, CSS"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_bswift.png"],
+    "date": ["October 2012"],
+    "description": ["Data Visualization Graphs. -HighCharts JavaScript, HTML5"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_FantasyFootball.png"],
+    "date": ["August 2012"],
+    "description": ["Fantasy football Mobile app. -PhoneGap, Bootstrap, css, HTML5"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_NT.png"],
+    "date": ["May 2012"],
+    "description": ["Financial Product Micro-site. -JQuery, JavaScript, HTML5, CSS3."]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_mcdonalds.png"],
+    "date": ["March 2012"],
+    "description": ["Training Kiosk for McDonalds Convention. Built in Adobe Air, AS3"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_tightRope.png"],
+    "date": ["Febuary 2012"],
+    "description": ["Animator for banners. -Adobe Flash, Greensock, AS3"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_mazolaOil.png"],
+    "date": ["January 2012"],
+    "description": ["Mazola Oil Facebook Application Page. -JavaScript, HTML, WuFoo Widgets"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_jaguar.png"],
+    "date": ["November 2011"],
+    "description": ["Developed Mobile marketing App. -Sencha Touch HTML5."]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_LinnGroupMCquotes1.png"],
+    "date": ["September 2011"],
+    "description": ["Linn Group Mobile Real-timeTrading App. -Sencha Touch Framework."]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_IndieFilmz.png"],
+    "date": ["January 2011"],
+    "description": ["Developer for website for independent film makers. -HTML, CSS"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_DowCorning.png"],
+    "date": ["August 2011"],
+    "description": ["Developed highly interactive menu system. -Adobe Flash, AS3"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_Allstate.png"],
+    "date": ["June 2011"],
+    "description": ["Developed salesteam support micro website. -Flashbuilder/Flex, AS3"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_MidwestFoods.png"],
+    "date": ["May 2011"],
+    "description": ["Developed B to B website. -Adobe Flash, AS3"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_Stanford.png"],
+    "date": ["March 2011"],
+    "description": ["Designed and Developed advertisement banners. Adobe Flash, Greensock, AS3"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_Amana.png"],
+    "date": ["February 2011"],
+    "description": ["Developed webpages for deployment on Amazon.com. -HTML, CSS"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_kmart.jpg"],
+    "date": ["January 2011"],
+    "description": ["Designed and Animated web banner advertisements. -Adobe Flash, AS3, Greensock"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_metropolisScreenSaver.png"],
+    "date": ["December 2010"],
+    "description": ["Designed and Developed Metropolis themed animated wallpaper for Androd 2.2 and above mobile devices"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_sears.png"],
+    "date": ["November 2010"],
+    "description": ["Developed prototype for digital publication concept. -Adobe Flash, AS3, Greensock"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_ICE.png"],
+    "date": ["September 2010"],
+    "description": ["Developed 360 virtual tour of the Costa Rica's national park system. - JavaScript, HTML"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_FBActivecartoon.jpg"],
+    "date": ["August 2010"],
+    "description": ["Developed E-Cards where users can add custom dialog to a cartoon cell. -Adobe Flash"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_sun-times-logo.jpg"],
+    "date": ["September 2010"],
+    "description": ["Design of interactive marketing stategies for the website, digital signage & live events."]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_northerntrust.png"],
+    "date": ["May 2010"],
+    "description": ["Developer for Omniture analytics set up and implementation. - JavaScript, AS3"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_playboyPokerGame.png"],
+    "date": ["April 2010"],
+    "description": ["Game Designer and Developer for Playboy Online - Adobe Flash, Adobe Photoshop, JavaScript, AS3"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_grainger.png"],
+    "date": ["Febuary 2010"],
+    "description": ["Content management system for website - Adobe Flash, AS3, PHP, MySQL"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_wilsonGolf.png"],
+    "date": ["January 2010"],
+    "description": ["Developed an Online Golf Ball Fitting Tool. - Adobe Flash, AS3, XML"]
+  },
+  {
+    "clickThrough":["/emails"],
+    "imagePath": ["./assets/images/news_iphone.png"],
+    "date": ["August 2009"],
+    "description": ["Designed and Produced prototype for an avatar hosted GPS tour guide mobile application."]
+  }
+  
+]
