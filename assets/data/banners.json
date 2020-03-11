@@ -1,0 +1,56 @@
+[
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["HTML5Banner1","HTML5Banner5","HTML5Banner7"],
+    "demoHeight": ["250","250","250"],
+    "demoWidth": ["300","300","300"],
+    "imagePath": ["./assets/images/bannerathem1.jpg","./assets/images/bannerblackCanyon.jpg","./assets/images/bannerdiscover.jpg"],
+    "title": ["Anthem Health","Black Canyon","Discover Card"],
+    "description": ["Pure Hand Coding","Google Web Designer","Adobe Animate"]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["HTML5Banner2","HTML5Banner4","HTML5Banner8"],
+    "demoHeight": ["600","250","310"],
+    "demoWidth": ["300","300","320"],
+    "imagePath": ["./assets/images/bannerembrel.jpg","./assets/images/bannersears.jpg","./assets/images/bannersteveHarvey.jpg"],
+    "title": ["Amgen Embrel","Sears","Kmart"],
+    "description": ["Pure Hand Coding","Google Web Designer","Adobe Animate"]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["HTML5Banner3","HTML5Banner9","HTML5Banner6"],
+    "demoHeight": ["485","250","600"],
+    "demoWidth": ["300","300","165"],
+    "imagePath": ["./assets/images/bannerathem.jpg","./assets/images/bannertoyota.jpg","./assets/images/bannerallstate.jpg"],
+    "title": ["Anthem Health","Toyota","Allstate"],
+    "description": ["Pure Hand Coding","Google Web Designer","Adobe Animate"]
+  },{
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["HTML5Banner10","blank","HTML5Banner12"],
+    "demoHeight": ["250","250","250"],
+    "demoWidth": ["300","300","300"],
+    "imagePath": ["./assets/images/bannereducational.jpg","./assets/images/bannerrylandHomes.jpg","./assets/images/bannerdiscover2.jpg"],
+    "title": ["Code Works","Ryland Homes","Discover Card"],
+    "description": ["Pure Hand Coding","Google Web Designer","Adobe Animate"]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["HTML5Banner13","HTML5Banner18","HTML5Banner15"],
+    "demoHeight": ["70","600","600"],
+    "demoWidth": ["730","300","300"],
+    "imagePath": ["./assets/images/bannerAktipak.jpg","./assets/images/bannerDepaul.jpg","./assets/images/bannertrunkclub1.jpg"],
+    "title": ["Cutanea Aktipak","Depaul University","Trunk Club"],
+    "description": ["Pure Hand Coding","Google Web Designer","Adobe Animate"]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["HTML5Banner20","HTML5Banner19","HTML5Banner14"],
+    "demoHeight": ["250","250","250"],
+    "demoWidth": ["300","300","300"],
+    "imagePath": ["./assets/images/bannershavebutter.png","./assets/images/bannertrunkclub3.jpg","./assets/images/bannertrunkclub2.jpg"],
+    "title": ["Shave Butter","Trunk Club","Trunk Club"],
+    "description": ["Adobe Animate","Adobe Animate","Adobe Animate"]
+  }
+
+]
