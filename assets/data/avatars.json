@@ -1,0 +1,41 @@
+[
+  {
+    "clickThrough":["","",""],
+    "imagePath": ["./assets/images/toucanSam.jpg","./assets/images/spiderman.jpg","./assets/images/ronaldMcdonald.jpg"],
+    "videoPosterPath": ["./assets/video/ToucanSamComercial.mp4.jpg","./assets/video/spidermanDemo1_1.jpg","./assets/video/ronaldMcDonaldSpanish.mp4.jpg"],
+    "videoPathMp4": ["./assets/video/ToucanSamComercial.mp4.m4v","./assets/video/spidermanDemo1_1.m4v","./assets/video/ronaldMcDonaldSpanish.mp4.m4v"],
+    "videoPathWebm": ["./assets/video/ToucanSamComercial.flv.webm","./assets/video/spidermanDemo1_1.webm","./assets/video/ronaldMcDonaldSpanish.mp4.webm"],
+    "videoPathOgg": ["./assets/video/ToucanSamComercial.flv.ogv","./assets/video/spidermanDemo1_1.ogv","./assets/video/ronaldMcDonaldSpanish.mp4.ogv"],
+    "title": ["Toucan Sam","Spiderman","McDonald's"],
+    "description": ["Project manager, creative and technical lead for a voice activated talking Toucan Sam CD-ROM promotion. The Toucan Sam desktop assistant and adventure game was distributed free inside of cereal boxes. Flash ActionStript, VisualBasic 6, SAPI-5. (10,000,000 copies distributed)","Interactive Developer. Designed and developed technology for voice activated animated character product. The Spiderman desktop avatar will respond when called upon and perform up to 100 tasks. Product also included a screensaver and remider system. (8,000,000 copies distributed)","Producer & Developer: product concept, product design, design document creation, script writing, project management, focus group testing, Live presentation to McDonald USA corporate marketing groups. Launch Prodduct was voice activated happy meal Winter Games CD."]
+  },
+  {
+    "clickThrough":["","",""],
+    "imagePath": ["./assets/images/tonyTigerMenu.jpg","./assets/images/spidermanScreenSaver.jpg","./assets/images/mobileApps.jpg"],
+    "videoPosterPath": ["./assets/video/KelloggCommercials_4.flv.jpg","./assets/video/spidermanScreenSaver.jpg","./assets/video/VIDEONAMEGOESHERE.jpg"],
+    "videoPathMp4": ["./assets/video/KelloggCommercials_4.flv.m4v","./assets/video/spidermanScreenSaver.m4v","./assets/video/VIDEONAMEGOESHERE.m4v"],
+    "videoPathWebm": ["./assets/video/KelloggCommercials_4.flv.webm","./assets/video/spidermanScreenSaver.webm","./assets/video/VIDEONAMEGOESHERE.webm"],
+    "videoPathOgg": ["./assets/video/KelloggCommercials_4.flv.ogv","./assets/video/spidermanScreenSaver.ogv","./assets/video/VIDEONAMEGOESHERE.ogv"],
+    "title": ["Tony The Tiger","Spiderman","Mobile Avatars"],
+    "description": ["Project manager, Creative and Technical lead for a voice activated talking Tony the Tiger CD-ROM. The product consist of a Talking Tony the Tiger desktop assistant, Tony Sports Tales games, screensaver and wallpaper. The CD was distributed free inside of cereal boxes. (10,000,000 copies distributed)","Interactive Developer for Spiderman II movie screen saver promotion. animation and programming used Flash Action AS1 and Microsoft Visual Basic. Creative supplied by Kellogs and Arc Marketing. 3D model supplied by Activision from the Spider-Man II game.","Producer, Techinical Director, Interactive Developer for cross-platform celebrity based avatar games and apps. Produdcts are voice activated and visual activated."]  },
+  {
+    "clickThrough":["","",""],
+    "imagePath": ["./assets/images/snapCraklePop.jpg","./assets/images/lebronJames.jpg","./assets/images/videoInstantMessag.jpg"],
+    "videoPosterPath": ["./assets/video/snapCrakelPopGotCHaGame.mp4.jpg","./assets/video/labronJames.jpg","./assets/video/foxnews.jpg"],
+    "videoPathMp4": ["./assets/video/snapCrakelPopGotCHaGame.mp4.m4v","./assets/video/labronJames.m4v","./assets/video/foxnews.m4v"],
+    "videoPathWebm": ["./assets/video/snapCrakelPopGotCHaGame.mp4.webm","./assets/video/labronJames.webm","./assets/video/foxnews.webm"],
+    "videoPathOgg": ["./assets/video/snapCrakelPopGotCHaGame.mp4.ogv","./assets/video/labronJames.ogv","./assets/video/foxnews.ogv"],
+    "title": ["Snap Crakle Pop","Lebron James","Avatar Video IM"],
+    "description": ["Project manager, creative and technical lead for a voice activated talking Snap Crackle and Pop CD-ROM promotion. The product containes a desktop assistant, Pop-up and Gotcha games series, screensaver and wallpapers. It was distributed free inside of cereal boxes. (10,000,000 copies distributed)","Developed core technology, Sales and programming management for voice activated desktop assitant. (1,000,000 distributed)      ","Designer & Developer for Video Instant Messaging System. Users can send video clip messages to each other. The avatars would annonce new messages and comment on it's audio content. Adobe Actionscript, MProjector, Sapi5, Instant Messaging, Flash Media Server, PHP, A.L.I.C.E. (The Arificial Linguistic Internet Computer Entity.)"]
+  },{
+    "clickThrough":["","",""],
+    "imagePath": ["./assets/images/vitamine.jpg","./assets/images/axe2.jpg","./assets/images/joannaVDM2.jpg"],
+    "videoPosterPath": ["./assets/video/vitaminReminder.jpg","./assets/video/axe.jpg","./assets/video/dancemachine.flv.jpg"],
+    "videoPathMp4": ["./assets/video/vitaminReminder.m4v","./assets/video/axe.m4v","./assets/video/dancemachine.flv.m4v"],
+    "videoPathWebm": ["./assets/video/vitaminReminder.webm","./assets/video/axe.webm","./assets/video/dancemachine.flv.webm"],
+    "videoPathOgg": ["./assets/video/vitaminReminder.ogv","./assets/video/axe.ogv","./assets/video/dancemachine.flv.ogv"],
+    "title": ["Wheaties","Axe Body Spray","Joanna Krupa"],
+    "description": ["Project management, concepting Technical Director for avatar based reminder system. Avatars created for Richard Petty, Branie Chastaine, and Ozzy Smith.","Project manager and programmer for a voice activated promotion. The experince contains commercials, a screensaver and wallpapers. The Vixens desktop assistant and reminder clock series was distributed free inside Maxim, Stuff and FHM magazines and Virgin Records Mega stores. (8,000,000 copies distributed)","Producer, Techinical Director, Interactive Developer for Video Avatar based music visualizer. Avatars will dance to the tempo and beat of any music you play on your computer or home media devices. Adobe Air, AS3, Adobe Premiere."]
+  }
+
+]
