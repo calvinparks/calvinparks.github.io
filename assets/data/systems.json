@@ -1,0 +1,14 @@
+[
+  {
+    "clickThrough":["https://www.libertymutual.com/","https://www.nextlot.com","https://www.goarmy.com/"],
+    "imagePath": ["./assets/images/libertyMutual.jpg","./assets/images/nextLot.png","./assets/images/ArmyLogos.jpg"],
+    "title": ["Liberty Mutual","NextLot","U.S. Army"],
+    "description": ["Remote developer of various Inkling Publishing Platform projects for the Commercial Insurance Dept, Underwriter Dept, and Distribution Department. HTML5, CSS3, SASS, Javascript, Bootstrap, Inkling Habitat, Adobe Animate, SVN..","Frontend & Backend Developer for Java and Flex based website and mobile App. Added prebid features which allows users to submit bids prior to the start of the auction. Java, Flex MXML, ActionScript 3 classes and UI, IntelliJ, Flashbuilder, Red5, GitHub.","System management and development of U.S.Army database that assisted in tracking manpower needs for the entire Korean theater of over 50,000 personnel. Wrote applications in INFORMIX relational database system, Pascal, and c-shell script."]
+  },
+  {
+    "clickThrough":["http://www.playboy.com/","http://www.conagrabrands.com","/nolink"],
+    "imagePath": ["./assets/images/playboyWebsites.png","./assets/images/conagra.png","./assets/images/blank312.png"],
+    "title": ["Playboy","Conagra","-"],
+    "description": ["Lead e-commerce design/development application programmer. Managed all user interface programming content for interactive web sites, including Playboy Online, The Playboy Cyber Club, The Playboy Store, The Spice Store, Critic Choice Music Store, and Critic Choice Video Store.","Frontend & Developer Developer for Java based websites. Installation and configuration of VirtuaBox VM, Debian Linux, Apache-Tomcat. Maintenance of Java Class and JSP files. Utilization of Source Tree, Eclipse and IntelliJ IDE's.",""]
+  }
+]
