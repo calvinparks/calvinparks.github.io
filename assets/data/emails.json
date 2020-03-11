@@ -1,0 +1,21 @@
+[
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["sony1","sony0","chase0"],
+    "demoHeight": ["1100","1500","1100"],
+    "demoWidth": ["900","900","900"],
+    "imagePath": ["./assets/images/sony.jpg","./assets/images/sonyEmail.png","./assets/images/chase.jpg"],
+    "title": [" Sony Card","Sony Card","Chase Bank"],
+    "description": ["Developer for marketing emails. HTML Tables, inline-CSS, Litmus testing","Developer for marketing emails. HTML Tables, inline-CSS, Litmus testing","Developer for marketing emails. HTML Tables, inline-CSS, Litmus testing"]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["chase1","amgen0","stanford1"],
+    "demoHeight": ["1400","6000","2700"],
+    "demoWidth": ["900","900","900"],
+    "imagePath": ["./assets/images/chase2.jpg","./assets/images/amgen.png","./assets/images/stanfordemail.png"],
+    "title": ["Chase Bank","Amgen","Stanford University"],
+    "description": ["Developer for marketing emails. HTML Tables, inline-CSS, Litmus testing","Developer for marketing emails. HTML Tables, inline-CSS","Developed several resusable MailChimp Templates."]
+  }
+
+]
