@@ -1,0 +1,27 @@
+[
+  {
+    "clickThrough":["http://calvinparks.com/blog/","https://zingzang.com","https://citylivingdesign.com"],
+    "imagePath": ["./assets/images/tribunewordpress.png","./assets/images/zingzangwordpress.jpg","./assets/images/citylivingdesignwordpress.jpg"],
+    "title": ["Chicago Tribune","Zing Zang","City Living Design"],
+    "description": ["Update Developer for marketing website. Wordpress, custom template updates, PHP, MySQL, JQuery.","Update Developer for ZingZang products website. ​Wordpress, PHP, MySQL, Plug-in updates, Complex SQL creation.","Developer for website migration and custom coding, ​Wordpress, PHP, MySQL, CSS, JavaScript, Photoshop."]
+  },
+  {
+    "clickThrough":["https://business.libertymutualgroup.com/business-insurance/industries/construction-insurance-coverage/construction-drones-infographic","https://www.deere.com/en/index.html","https://www.northerntrust.com"],
+    "imagePath": ["./assets/images/LiibertyMutualDrone.jpg","./assets/images/johnDeere.jpg","./assets/images/northernTrust.jpg"],
+    "title": ["Liberty Mutual","John Deere","Northern Trust"],
+    "description": ["Developer for Liberty Mutual responsive Drone website. Bootstrap, CreateJS, JQuery, JavaScript, HTML5, CSS3. Adobe Animate.","Developer for John Deere Micro-site JQuery, JavaScript, HTML5, CSS3, Adobe Photoshop","Designer and Developer for Northern Trust Defined Contribution Micro-site JQuery, JavaScript, HTML5, CSS, Flash."]
+  },
+  {
+    "clickThrough":["/nolink","/nolink","/nolink"],
+    "imagePath": ["./assets/images/grainger1.jpg","./assets/images/haveTheConversation.png","./assets/images/amana.jpg"],
+    "title": ["Grainger","Messaging","Amana"],
+    "description": ["Developer for online news and event creation system. The HTML editor allows users to create web pages and publish them on the Grainger webstite.","Developer for branded e-card that allows users to add their own dialog to the cartoon cell and then email it to family and friends.","Developer for Amana appliance website. HTML, CSS, Photoshop. "]
+  },
+  {
+    "clickThrough":["/nolink","/nolink","/nolink"],
+    "imagePath": ["./assets/images/sears.jpg","./assets/images/mavatar.jpg","./assets/images/blank312.png"],
+    "title": ["Sears","Mavatar","-"],
+    "description": ["Lead developer for Sears paint website which included a paint calculator , color picker and project survey. HTML, JavaScript, OpenNet, Oracle.","Developer for Flash timeline and Actionscript 3 based website.",""]
+  }
+
+]
