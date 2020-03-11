@@ -1,0 +1,15 @@
+[
+  {
+    "clickThrough":["http://www.answersmediainc.com/","http://mylifebook.com","https://www.abelsontaylor.com/"],
+    "imagePath": ["./assets/images/3dvideo.jpg","./assets/images/lifeBook.jpg","./assets/images/mycamine.jpg"],
+    "title": ["360 Video","LifeBook","Mycamine"],
+    "description": ["Developer for 360 degree panoramic video. Interactive video with synchronized html page elements. JavaScript, DHTML, Flash AS3.","Interactive Developer MyLifeBook Online is an interactive self authoring personal development tool. Interactive video control and editing tools creation. Video editing, Graphic editing, Animation creation, Flash AS3 object oriented development, Adobe Media Server, PHP","Developer for Video Player inside Mycamine IPad Pharmacutical Training APP slide content. HTML5, CSS3, JavaScript JQuery."]
+  },
+  {
+    "clickThrough":["https://www.northerntrust.com/insights-research/multimedia-center","/nolink","/nolink"],
+    "imagePath": ["./assets/images/northernTrustVideo.jpg","./assets/images/joannaVDM.jpg","./assets/images/blank312.png"],
+    "title": ["Northern Trust","Avatar Video","-"],
+    "description": ["Custom Video player for Northern Trust Bank's media center. JavaScript, JQuery, Flash AS3.","Producer, Techinical Director, Interactive Developer for Video Avatar based music visualizer. Avatars will dance to the tempo and beat of any music you play on your computer or home media devices. Adobe Air, AS3, Adobe Premiere",""]
+  }
+
+]
