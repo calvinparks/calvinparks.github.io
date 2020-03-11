@@ -1,0 +1,20 @@
+[
+  {
+    "clickThrough":["/nolink","/nolink","/nolink"],
+    "imagePath": ["./assets/images/BizcardDNA.jpg","./assets/images/bizCardArmy.jpg","./assets/images/bizCardPlayboy.jpg"],
+    "title": ["DNA Media","U.S. Army","Playboy Inc."],
+    "description": ["Designed and developed core interactive voice activated animated character technology. Created voice activated animated video instant messaging system. Conceived and developed digital puppet technology. Managed pre-production, production and hiring for company.","System management and development of U.S.Army database that assisted in tracking manpower needs for the entire Korean theater of over 50,000 personnel. Wrote applications in INFORMIX relational database system, Pascal, and c-shell script.      ","Lead e-commerce design & development application programmer. Managed all user interface programming content for interactive web sites, including Playboy Online, The Playboy Cyber Club, The Playboy Store, The Spice Store, Critic Choice Music Store, and Critic Choice Video Store."]
+  },
+  {
+    "clickThrough":["/nolink","/nolink","/nolink"],
+    "imagePath": ["./assets/images/cyberstarCard.jpg","./assets/images/bizCardCVE.jpg","./assets/images/creativegroup.jpg"],
+    "title": ["CyberStar","Celebrity Virtual","Creative Group"],
+    "description": ["Directed technology stategy. Designed and developed Interactive voice activated, life-like avatar characters.","Directed technology stategy. Designed and developed Interactive voice activated, life-like avatar characters.","Onsite and remote contract developer for various projects including, back-end and front-end systems, kiosks, mobile apps, games, rich emails, animated ad banners, animated menus, educational experiences, interactive video and more."]
+  },
+  {
+    "clickThrough":["/nolink","nolink","/nolink"],
+    "imagePath": ["./assets/images/bizCardTaproot.jpg","./assets/images/creativecircle.jpg","./assets/images/mondo.png"],
+    "title": ["Taproot","Creative Circle","Mondo"],
+    "description": ["Responsible for analysis and programming of a variety of internet/intranet. Programmer for Sears web account, requiring installation and administration of web and database server mirror site consisting of two Sun Solaris Ultra 1 computers running Netscape Enterprise & Informix servers.","Onsite and remote contract developer for various projects including, back-end and front-end systems, kiosks, mobile apps, games, rich emails, animated ad banners, animated menus, educational experiences, interactive video and more.","Onsite and remote contract developer for long-term clients including Liberty Mutual Insurance and Nordstum's Trunk Club." ]
+  }
+]
