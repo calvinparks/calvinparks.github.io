@@ -1,0 +1,15 @@
+[
+  {
+    "clickThrough":["/nolink","/nolink","/nolink"],
+    "imagePath": ["./assets/images/1c.jpg","./assets/images/fantasyFootball.jpg","./assets/images/christmassJoanna.jpg"],
+    "title": ["Jaguar","Fantasy Football","Joanna Krupa"],
+    "description": ["Developer Jaguar promotional Apps, built with the Sencha Touch framework, JavaScript, HTML5 CSS.","Developer Fantasy Football App, built with PhoneGap, Boilerplate, JavaScript, HTML5 CSS.","Developer Avatar hosted Christmass App. Adobie Air, AS3."]
+  },
+  {
+    "clickThrough":["https://www.qtmarketcenter.com","/nolink","https://www.karching.com"],
+    "imagePath": ["./assets/images/mcQuotes.jpg","./assets/images/matchgame1.jpg","./assets/images/karchingmobile.png"],
+    "title": ["QT Marketing","Match Game","Karching"],
+    "description": ["Developer for commodities trading App built with the Sencha Touch framework, JavaScript, HTML5 CSS.","Developer Avatar hosted match game application. Adobie Air, AS3.","Developer for custom webviews and Amazon product search API, WordPress, PHP, MySQL, Python, AWS, Google Cloud."]
+  }
+
+]
