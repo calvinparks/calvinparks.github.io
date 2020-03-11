@@ -1,0 +1,38 @@
+[
+  {
+    "clickThrough":["#emails","#misc","#nonnative"],
+    "imagePath": ["./assets/images/category1.jpg","./assets/images/category2.jpg","./assets/images/category3.jpg"],
+    "title": ["Corporate Email","Misc Projects","Non-native Apps"],
+    "description": ["Marketing emails delivered to multiple browsers, clients and devices. - HTML, CSS, graphic processing","Various developer projects for a variety of clients","Web APPs for various clients. Sencha Touch, BoilerPlate, JSON, AJax, PhoneGap, Adobe Air, XML."]
+  },
+  {
+    "clickThrough":["#microsites","#instruction","#nativeapps"],
+    "imagePath": ["./assets/images/category4.jpg","./assets/images/category5.jpg","./assets/images/category6.jpg"],
+    "title": ["Websites","Instructional","Native Apps"],
+    "description": ["Various marketing microsites. AJAX, JQuery, JavaScript, HTML, CSS, AS3, graphic design and processing.","Interactive training content. Adobe Animate, Photoshop, Premier, AS3, HTML5, CSS3, Greensock.","Project management and code development. Android-SDK, IOS."]
+  },
+  {
+    "clickThrough":["#datavisual","","#socialmedia"],
+    "imagePath": ["./assets/images/category7.jpg","./assets/images/category8.jpg","./assets/images/category9.jpg"],
+    "title": ["Visual Data","Prototyping","Social Media"],
+    "description": ["Interactive animated charts using realtime data. HTML5, CSS3, JavaScript, HighCharts","Product Design, Tech Document Creation, Demo Development. Provisional Patent Submission.","Live event photo & video caputure & sharing. Wowza Media Server, PHP, FaceBook API, Adobe Air, AS3"]
+  },{
+    "clickThrough":["#video","","#eventkiosk"],
+    "imagePath": ["./assets/images/category10.jpg","./assets/images/category11.jpg","./assets/images/category12.jpg"],
+    "title": ["Video Control","Production","Event Kiosk"],
+    "description": ["Variety of video control projects. HTML5, HTML, JavaScript, Delve, BrightCove, Flash AS3, Immersive 360","Project management, design and tech architecture.  Asset and budget management. Document authoring.","On Location interactive kisok. Flash, AS3"]
+  },
+  {
+    "clickThrough":["#banners","#avatars","#instorekiosk"],
+    "imagePath": ["./assets/images/category13.jpg","./assets/images/category14.jpg","./assets/images/category15.jpg"],
+    "title": ["Ad Banners","Avatars","In-Store Kiosk"],
+    "description": ["Banner creation for various brands. HTML5, JavaScript, Greensock, Google Web Designer, Adobe Animate","Designed &  developed Voice Activated avatar games. Flash, SAPI-5, MProjector, VB6, Photoshop, Illustrator","Developer for Point-of-purchase product display kiosks. Flash AS2, AS3 FireCast, PHP "]
+  },
+  {
+    "clickThrough":["#systems","#playboy","#jobpositions"],
+    "imagePath": ["./assets/images/category16.jpg","./assets/images/category17.jpg","./assets/images/category18.jpg"],
+    "title": ["Systems","Playboy Games","Job Positions"],
+    "description": ["Front-end & back-end development. Java/JSP, Apache, Tomcat, Linux, SQL,  PHP, FLEX, IntelliJ, Eclipse","Developed Quiz, Rebound, Tic-Tac-Toe, Match-Game, Break-Out, Poker, Slot Machine. AS1, AS2, AS3, XML","Positions, responsibilities, team members, impact, accomplishments."]
+  }
+
+]
