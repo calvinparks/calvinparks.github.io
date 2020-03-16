@@ -1,0 +1,113 @@
+
+/*  Google fonts */
+@import url('http://fonts.googleapis.com/css?family=Share+Tech');
+
+ 
+ /* Simple reset */
+ 
+ *{
+	 margin:0;
+	 padding:0;
+	 box-sizing:border-box;
+
+ }
+ 
+ 
+
+ 
+ /* define a figure element as our banner;s paret container */
+ .figure{
+	 margin: 0 auto;
+	 width:728px;
+	 height:90px;
+	overflow:hidden;
+	border-style: solid;
+	border-width: 1px;
+	
+ }
+ 
+ /* style typographic details and imagery design */
+
+ 
+ .figure{
+	background-image:url(../img/CUTA_11199_Aktipak_728x90_BannerAd_ANIMATD_PRODUCTION_FILE.jpg);
+	background-position:top left;
+	overflow:hidden;
+	opacity: 0;
+	 }
+ 
+ 
+
+ #info {
+	 font-size: 8px;
+	 /* margin-left: 486px; */
+	margin-left: 486px;
+	
+	 margin-top: 0px;
+
+    height: 74px;
+    overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: 999999;
+	cursor: pointer;
+	cursor: hand;
+}
+   #infobtn {
+	    /* margin-left: 486px; */
+		margin-left: 486px;
+	 margin-top: -248px;
+	/* visibility: hidden; */
+} 
+
+#hero-image {
+	margin-left: 0px;
+	margin-top: -76px;
+	pointer-events:none;
+	/* visibility: hidden; */
+}
+
+#headline {
+	margin-left: 183px;
+	margin-top: -95px;
+	pointer-events:none;
+	/* visibility: hidden; */
+}
+
+#headline2 {
+	margin-left: 179px;
+	margin-top: -37px;
+	pointer-events:none;
+	/* visibility: hidden; */
+}
+
+#headline3 {
+	margin-left: 166px;
+	 margin-top: -90px; 
+	 pointer-events:none;
+	/* visibility: hidden; */
+}
+
+#headline4 {
+	margin-left: 283px;
+	 margin-top: -90px; 
+	 pointer-events:none;
+	/* visibility: hidden; */
+} 
+ 
+ #headline5 {
+	margin-left: 180px;
+	 margin-top: -100px; 
+	 pointer-events:none;
+	 
+	 /*margin-top: -190px; */
+	/* visibility: hidden; */ 
+} 
+ 
+ 
+ span{
+	 font-family: sans-serif !important;
+ }
+
+
+
+

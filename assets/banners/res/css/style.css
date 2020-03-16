@@ -1,0 +1,255 @@
+
+  img { /* Responsive images (ensure images don't scale beyond their parents) */ max-width: 100%; /* Part 1: Set a maxium relative to the parent */ width: auto\9; /* IE7-8 need help adjusting responsive images */ height: auto; /* Part 2: Scale the height according to the width, otherwise you get stretching */ vertical-align: middle; border: 0; -ms-interpolation-mode: bicubic;}
+
+  body { 
+    background: #000; 
+    font: 15px/21px 'Lato' ,'Trebuchet MS', Helvetica, sans-serif; 
+    color: #333333; 
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ 
+    -webkit-text-size-adjust: 100%; 
+    text-shadow: 1px 1px 11px rgba(0, 0, 0, 0.46);
+    margin: 0;
+    padding: 0;
+	border-width: 3px;
+    border-style: solid;
+    border-color: #ff0000;
+	
+	
+	
+	
+
+  }
+
+/* Common */
+
+.content h1 {
+	font-size:48px;
+	color:#000;
+	text-shadow:0px 1px 1px #f4f4f4;
+	text-align:center;
+	padding:60px 0 30px;	
+}
+
+/* LAYOUT */
+.container {
+	margin:0 auto;
+	overflow:hidden;
+	width:775px;
+	
+}
+
+
+
+/* CONTENT SLIDER */
+.content-slider {
+	width:70%;
+	height:360px;
+	margin:10px auto 0;
+	
+}
+
+/* SLIDER */
+.slider {
+	background:#000;
+	/* border:5px solid #eaeaea;*/
+	box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+	height:100%;
+	width:100%;
+
+	overflow:visible;
+	position:relative;
+	left:-95px;
+	top:-3px;
+
+}
+
+.slider ul {
+	margin:0;
+	padding:0;
+	position:relative;
+}
+.slider li {
+
+	width:400px;
+	height:320px;
+	position:absolute;
+	top:-325px;
+	list-style:none;
+}
+
+.slider li.slideanimation {
+
+	-moz-transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out; 	
+
+}
+
+.slider li.firstanimation {
+
+	-moz-transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out; 	
+
+}
+.slider li.secondanimation {
+
+	 -moz-transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out; 	
+}
+.slider li.thirdanimation {
+
+	-moz-transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out; 
+		
+}
+.slider li.fourthanimation {
+
+	-moz-transition: all 0.3s ease-in-out; 	
+	-webkit-transition: all 0.3s ease-in-out; 		
+}
+.slider li.fifthanimation {
+
+	-moz-transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out; 		
+}
+
+.slider li.sixthanimation {
+
+	-moz-transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out; 		
+}
+
+
+.slider li.seventhhanimation {
+
+	-moz-transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out; 		
+}
+
+
+.slider li.eightanimation {
+
+	-moz-transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out; 		
+}
+
+.slider .tooltip {
+	background:rgba(f,0,0,0);
+	padding: 2px;
+	height:200px;
+	position:relative;
+	/*bottom:300px;*/
+	top:-300px;
+	left:-400px;
+	
+
+
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;  
+}
+
+
+
+.slider .tooltip h1 {
+	width:300px;
+	color:#fff;
+	font-size:20px;
+	font-weight:300;
+	line-height:25px;
+	padding:0 0 0 5px;
+
+}
+
+
+/*.slider li#first:hover .tooltip, */
+.slider li#second:hover .tooltip, 
+.slider li#third:hover .tooltip, 
+.slider li#fourth:hover .tooltip, 
+.slider li#fifth:hover .tooltip {
+	left:400px;
+	width:80%;
+}
+.slider:hover .tooltip {
+	left:-400px;
+	width:80%;
+}
+
+.slider:hover li{
+	-moz-animation-play-state:paused;
+	-webkit-animation-play-state:paused;
+	cursor: pointer; cursor: hand;
+}
+
+.sliderImage{
+
+	width:400px;
+}
+
+.toolTipText{
+position:relative;
+
+}
+
+#nextImage {
+width:30px; 
+height:30px;
+}
+
+
+
+@media only screen and (min-width: 175px) and (max-width: 662px){
+
+/* SLIDER */
+.slider {
+	background:#000;
+	/* border:5px solid #eaeaea;*/
+	box-shadow:1px 1px 5px rgba(0,0,0,0.7);
+	height:100%;
+	width:46%;
+	left: -113px;
+	
+	overflow:visible;
+	position:relative;
+
+}
+
+.slider .tooltip {
+
+
+	height:200px;
+	position:relative;
+	/*bottom:300px;*/
+	top:20px;
+	left:-500px;
+
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;  
+	
+}
+
+.toolTipText{
+position:absolute;
+width:255px;
+top: -10px;
+left: -400px;
+font-size:15px;
+line-height:14px;
+
+}
+
+
+.sliderImage {
+top:30px;
+width:260px;
+/*visibility:hidden; */
+}
+
+
+
+
+
+} // End of @media only screen and (min-width: 175px) and (max-width: 462px)
+
+  
+  a {color: red; text-decoration: none; }
+a:hover { color: red; text-decoration: none;}
+a:visited { color: red; background: red;}

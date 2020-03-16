@@ -1,0 +1,528 @@
+/* 
+general styles 
+*/
+
+#banner {
+    width: 728px;
+    height: 90px;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+#banner_btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 90px;
+    z-index: 101;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    background: white
+}
+#banner_btn:hover {
+    cursor: pointer
+}
+#banner_border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px #0079c2 solid;
+    width: 726px;
+    height: 88px;
+    z-index: 99;
+}
+.container {
+    width: 728px;
+    height: 90px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* 
+font styles 
+*/
+
+p {
+    font-family: "comic sans ms", monospace;
+    font-size: 12px;
+    font-weight: 100;
+    color: antiquewhite;
+    padding: 20px;
+    text-align: left;
+}
+h1 {
+    font-family: "comic sans ms", monospace;
+    font-size: 28px;
+    font-weight: 100;
+    color: antiquewhite;
+    padding: 20px;
+    text-align: left;
+}
+h2 {
+    font-family: "comic sans ms", monospace;
+    font-size: 24px;
+    font-weight: 100;
+    color: antiquewhite;
+    padding: 20px;
+    text-align: left;
+}
+h3 {
+    font-family: "comic sans ms", monospace;
+    font-size: 18px;
+    font-weight: 100;
+    color: antiquewhite;
+    padding: 20px;
+    text-align: left;
+}
+/*
+ frame styles 
+*/
+
+#frame1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 728px;
+    height: 90px;
+    overflow: hidden;
+    z-index: 10;
+}
+#frame1 #img1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 728px;
+    height: 90px;
+    z-index: 0;
+}
+/* a doctor visit on my */
+#frame1 #copy1 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 362px;
+    height: 27px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+/* phone */
+#frame1 #copy1_2 {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    width: 250px;
+    height: 34px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#frame1 #copy1_2 img {
+    position: absolute;
+    top: -27px;
+    left: 0px;
+}
+/*
+#frame1 #copy1_3 {
+    position: absolute;
+    top: 30px;
+    left: 85px;
+    width: 150px;
+    height: 19px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+
+#frame1 #copy1_3 img {
+    position: absolute;
+    top: -38px;
+    left: 0px;
+    
+}
+*/
+
+/* sign me up */
+#frame1 #copy1_4 {
+    position: absolute;
+    top: 45px;
+    left: 145px;
+    width: 180px;
+    height: 35px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#frame1 #copy1_4 img {
+    position: absolute;
+    top: -65px;
+    left: 0px;
+}
+
+/* backgrond image 2 */
+#frame2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 728px;
+    height: 90px;
+    overflow: hidden;
+    z-index: 11;
+}
+
+#frame2 #img2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 250px;
+    z-index: 0;
+}
+/* you've got he will */
+#frame2 #copy2 {
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    width: 334px;
+    height: 28px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#frame2 #copy2 img {
+    position: absolute;
+    top: -100px;
+    left: 0px;
+}
+/*   *****deactivted 0,0***** */
+#frame2 #copy2_2 {
+    position: absolute;
+    top: 41px;
+    left: 21px;
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#frame2 #copy2_2 img {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+
+/* we've got the way */
+#frame2 #copy2_3 {
+    position: absolute;
+    top: 49px;
+    left: 21px;
+    width: 339px;
+    height: 28px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#frame2 #copy2_3 img {
+    position: absolute;
+    top: -127px;
+    left: 0px;
+}
+/*   *****deactivted 0,0***** */
+#frame2 #copy2_4 {
+    position: absolute;
+    top: 89px;
+    left: 21px;
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#frame2 #copy2_4 img {
+    position: absolute;
+    top: -19px;
+    left: 0px;
+}
+
+
+
+#frame3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 728px;
+    height: 90px;
+    overflow: hidden;
+    z-index: 7;
+}
+#frame3 #img3 {
+    position: absolute;
+    top: 0px;
+    left: -728px;
+    width: 728px;
+    height: 90px;
+    z-index: 0;
+}
+/* live health online */
+#frame3 #copy3 {
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    width: 125px;
+    height: 40px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#frame3 #copy3 img {
+    position: absolute;
+    top: -157px;
+    left: 0px;
+    z-index: 1;
+}
+/*   let you visit a doctor from any device 24/7 */
+#frame3 #copy3_2 {
+    position: absolute;
+    top: 21px;
+    left: 140px;
+    width: 300px;
+    height: 50px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#frame3 #copy3_2 img {
+    position: absolute;
+    top: -157px;
+    left: -115px;
+    z-index: 1;
+}
+#frame3 #copy3_3 {
+    position: absolute;
+    top: 92px;
+    left: 21px;
+    width: 247px;
+    height: 50px;
+    z-index: 1;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#frame3 #copy3_3 img {
+    position: absolute;
+    top: -21px;
+    left: 0px;
+    z-index: 1;
+}
+#end_frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 728px;
+    height: 90px;
+    overflow: hidden;
+    z-index: 8;
+}
+#end_frame #copyEnd {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 728px;
+    height: 90px;
+    z-index: 1;
+}
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 546px;
+    width: 186px;
+    height: 50px;
+    overflow: hidden;
+    z-index: 11;
+}
+#logo img {
+    position: absolute;
+    top: -105px;
+    left: 0px;
+    width: 244px;
+    z-index: 1;
+}
+/* 
+container styles 
+*/
+
+.image {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.back {
+    background-color: #39869e;
+}
+.front {
+    background-color: #39869e;
+}
+.page {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+/* 
+button - cta styles 
+*/
+
+#cta {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 570px;
+    top: 47px;
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#cta_btn {
+    position: absolute;
+    width: 260px;
+    height: 29px;
+    left: 0px;
+    right: 0px;
+    z-index: 0;
+    background: url('../images/cta.png');
+    left no-repeat;
+}
+
+#cta_btn2 {
+    position: absolute;
+    width: 0px;
+    height: 29px;
+    left: -130px;
+    right: 0px;
+    z-index: 1;
+    background: url('../images/cta.png');
+    left no-repeat;
+}
+
+#cta_arrow{
+    position: absolute;
+    width: 7px;
+    height: 15px;
+    top: 6px;
+    left: 107px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#cta_arrow_img{
+    position: absolute;
+    width: 14px;
+    height: 15px;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+#legal {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90px;
+    width: 728px;
+    z-index: 100;
+    overflow: hidden;
+}
+#legal_in {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 90px;
+    width: 1456px;
+    z-index: 1;
+    overflow: hidden;
+}
+#legal_bg {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 90px;
+    width: 728px;
+    z-index: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+28&amp;0+0,1+28 */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 28%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(28%, rgba(0, 0, 0, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 28%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 28%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 28%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 28%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
+    overflow: hidden;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+#legal_in:hover {
+    cursor: pointer
+}
+#banner_btn:hover {
+    cursor: pointer;
+}

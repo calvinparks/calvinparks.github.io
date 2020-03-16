@@ -1,0 +1,334 @@
+body, body * {
+  vertical-align: baseline;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  color: #333;
+}
+#container {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  box-sizing: border-box;
+  background: #fff;
+  overflow: hidden;
+  border:1px solid #000000;
+ 
+}
+#bigExit, #tag1 {
+  cursor: pointer;
+  position: absolute;
+  width: 160px;
+  height: 400px;
+  top:0px;
+  left:0px;
+  z-index: 9999;
+}
+#logo{
+	width:143px;
+	height:64px;
+	position:absolute;
+    top: 321px;
+    left: 5px;
+	z-index: 12;
+	background: url('logo-enbrel.jpg') 0px 0px no-repeat;
+}
+#rainbow-bar{
+	width:300px;
+	height:10px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index: 100;
+	background: url('img-rainbow-bar.png') 0px 0px no-repeat;
+}
+#imageContainer{
+    
+	width:300px;
+	height:314px;
+	position: absolute;
+	
+	border-bottom:0px solid #ffffff;
+	box-sizing: border-box;
+	overflow: hidden;
+	top: -3px !important;
+	left:0px;
+    background: url('top-background.png') 0px 0px no-repeat;
+    z-index:99;
+}
+
+#bg-one-a {
+    position: absolute;
+    top: 35px;
+    width: 300px;
+    height: 200px;
+    background: url('bg-one-text.png')0px 0px no-repeat; 
+}
+#bg-one-b{
+	position: absolute;
+    top: 83px;
+    right: 60px;
+	width: 195px;
+	height:292px; 
+	background: url('bg-one.jpg')0px 0px no-repeat;
+	z-index:40;
+}
+#bg-two-a {
+	position: absolute;
+	top: 40px;
+	left:310px;
+	width:195px;
+	height:194px;
+	background: url('slide2-Circle1.jpg')0px 0px no-repeat;
+	z-index: 30;
+}
+#bg-two-b {
+	position: absolute;
+	top: 105px;
+	left:-160px;
+	width:124px;
+	height:124px;
+	background: url('slide2-Circle2.png')0px 0px no-repeat;
+	z-index: 31;
+}
+
+#bg-two-c {
+	position: absolute;
+    opacity: 0;
+	top: 35px;
+	left:15px;
+	width:160px;
+	height:300px;
+	background: url('from-head.png')0px 0px no-repeat;
+	z-index: 32;
+}
+
+#bg-three-a{
+	position: absolute;
+	top:35px;
+	left:-200px;
+	width:199px;
+	height:292px;
+	background: url('slide3-Circle1.jpg')0px 0px no-repeat;
+	z-index: 30;
+}
+#bg-three-b{
+	position: absolute;
+	top:40px;
+	left:310px;
+	width:160px;
+	height:300px;
+	background: url('slide3-Circle2.png')0px 0px no-repeat;
+	z-index: 31;
+}
+
+#bg-three-c {
+	position: absolute;
+    opacity: 0;
+	top: 215px;
+	left: 200px;
+	width: 160px;
+	height: 300px;
+	background: url('to-toe.png')0px 0px no-repeat;
+	z-index: 32;
+}
+
+#bg-four-a {
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    width: 300px;
+    height: 200px;
+    z-index:41;
+    background: url('offer-them-relief.png')0px 29px no-repeat; 
+}
+
+#bg-four-b {
+	position: absolute;
+    top: 83px;
+    right: 60px;
+	width: 195px;
+	height:292px; 
+	background: url('bg-one.jpg')0px 0px no-repeat;
+	z-index:40;
+}
+
+
+
+#slide1 {
+    opacity: 1;
+}
+
+#slide2 {
+    opacity: 1;
+}
+
+#slide3 {
+    opacity: 1;
+}
+
+#slide4 {
+    opacity: 0;
+}
+
+/*--- ISI STYLES ---*/
+
+#isiContainer{
+	width:300px;
+	height:261px;
+	position: absolute;
+	left:0px;
+	bottom:0px;
+	overflow:scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+#isiContainer::-webkit-scrollbar {
+    width: 1em;
+}
+#isiContainer::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+#isiContainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+#isiContainer::-webkit-scrollbar-button{
+	background-color: #cdcccc;
+	height:0px;
+	display:none;
+} 
+#isiContainer::scrollbar-arrow-color: #cdcccc;
+#isiContainer::scrollbarbutton {-moz-appearance: none !important;background-color: #cdcccc;height:0px;
+	display:none;}
+#topLink{
+	background: #e6e7e8;
+	width:300px;
+	height:24px;
+	left:0px;
+	top:311px;
+	position: absolute;
+    border: 1px solid #c5c5c4;
+}
+	#topLink li{
+		float:left;
+		list-style-type: none;
+		text-align:center;
+		color:#40414f;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:10px;
+		padding-top:3px;
+        
+	}
+	#pi,
+	#medGuide {
+		width:148px !important;
+		cursor:pointer;
+		text-decoration: underline;
+		line-height: 12px;
+        padding-top: 5px !important;
+
+	}
+
+
+#isiScroller{
+	width:296px;
+	padding:5px 10px;
+	box-sizing: border-box;
+    line-height: 1.333;
+    left: 7px;
+}
+#isiScroller p {
+    
+}
+
+h1{
+	font-family: Arial,Helvetica, sans-serif;
+	color:#1e2171;
+	text-transform: uppercase;
+	font-size:14px;
+	padding:0px;
+	margin:5px 0px;
+	font-weight:bold;
+}
+h2{
+	font-family: Arial,Helvetica, sans-serif;
+	color:#37929a;
+	text-transform: uppercase;
+	font-size:12px;
+	padding:0px;
+	margin:5px 0px;
+	font-weight:bold;
+}
+p{
+	color:#40404f;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:5px 0px;
+}
+p.isi-link {
+	text-decoration: underline;
+}
+#amgenLogo{
+	width:80px;
+	height:29px;
+	background: url('amgenLogo.png') center center no-repeat;
+	/*cursor:pointer;*/
+	padding-top:10px;
+	padding-bottom:10px;
+    padding-left: 30px;
+}
+a#piCopyLink{
+	color:#000000;
+	text-decoration: underline;
+	padding-bottom:5px;
+}
+
+#enbrel-logo {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    top: 256px;
+    left: 20px;
+    height: 34px;
+    width: 104px;
+    border: 2px solid #002;
+    z-index:99;
+    opacity: 0;
+}
+
+#learn-more {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    top: 255px;
+    left: 150px;
+    height: 52px;
+    width: 158px;
+    border: 2px solid #002;
+    z-index: 99;
+    opacity: 0;
+}
+#isiPi, #isiMedGuide{
+    text-decoration:underline;    
+}
+
+
+/*for screenshooting*/
+.ss {
+    height: auto   !important;
+    overflow:visible !important;
+                
+}
+
+.ss #isiScroller {
+    height: auto;
+    background:#fff;
+}
+
+.ss #isiContainer  {
+    top: 345px !important;
+    overflow:visible !important;
+}

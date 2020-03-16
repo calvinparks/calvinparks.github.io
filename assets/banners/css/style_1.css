@@ -1,0 +1,1221 @@
+
+/* Reset, thanks to normalize ----------------------------- */
+      
+  article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block;}
+  audio, canvas, video { display: inline-block; *display: inline; *zoom: 1;}
+  audio:not([controls]) { display: none;}
+  html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+  a:focus { outline: thin dotted #333; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px;}
+  a:hover, a:active { outline: 0;}
+  sub, sup { position: relative; font-size: 75%; line-height: 0; vertical-align: baseline;}
+  sup { top: -0.5em;}
+  sub { bottom: -0.25em;}
+  img { /* Responsive images (ensure images don't scale beyond their parents) */ max-width: 100%; /* Part 1: Set a maxium relative to the parent */ width: auto\9; /* IE7-8 need help adjusting responsive images */ height: auto; /* Part 2: Scale the height according to the width, otherwise you get stretching */ vertical-align: middle; border: 0; -ms-interpolation-mode: bicubic;}
+  #map_canvas img { max-width: none; }
+  button, input, select, textarea { margin: 0; font-size: 100%; vertical-align: middle;}
+  button, input { *overflow: visible; line-height: normal; }
+  button::-moz-focus-inner, input::-moz-focus-inner { padding: 0; border: 0;}
+  button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button;}
+  input[type="search"] { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; -webkit-appearance: textfield;}
+  input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none;}
+  textarea { overflow: auto; vertical-align: top;}
+  .clearfix { *zoom: 1;}
+  .clearfix:before, .clearfix:after { display: table; content: ""; line-height: 0;}
+  .clearfix:after { clear: both; }
+  .hide-text { font: 0/0 a; color: transparent; text-shadow: none; background-color: transparent; border: 0;}
+  .input-block-level { display: block; width: 100%; min-height: 30px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+  * { box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box}
+  
+/* Basic ------------------------------------------------ */
+	body { 
+    background: rgb(0, 0, 0); 
+    font: 15px/21px 'Lato' ,'Trebuchet MS', Helvetica, sans-serif; 
+    color: #333333; 
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */ 
+    -webkit-text-size-adjust: 100%; 
+    text-shadow: 1px 1px 11px rgba(0, 0, 0, 0.46);
+    /* margin: 0 auto; */
+	border-width: 3px;
+    border-style: solid;
+    border-color: #000000;
+	
+
+  }
+
+
+  
+  /* Thanks to bootstrap */
+  p { margin: 0 0 10px;}
+  small { font-size: 85%;}
+  strong { font-weight: bold;}
+  em { font-style: italic;}
+  cite { font-style: normal;}
+  
+  h1, h2, h3, h4, h5, h6 { 
+    margin: 10px 0; 
+    font-weight: bold; 
+    line-height: 1; 
+    color: inherit; 
+    text-rendering: optimizelegibility;
+  }
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { 
+    font-weight: normal; 
+    line-height: 1; 
+    color: #999999;
+  }
+  h1 { font-size: 36px; line-height: 40px;}
+  h2 { font-size: 30px; line-height: 40px;}
+  h3 { font-size: 24px; line-height: 40px;}
+  h4 { font-size: 18px; line-height: 20px;}
+  h5 { font-size: 14px; line-height: 20px;}
+  h6 { font-size: 12px; line-height: 20px;}
+  h1 small { font-size: 24px;}
+  h2 small { font-size: 18px;}
+  h3 small { font-size: 14px;}
+  h4 small { font-size: 14px;}
+  
+  a { 
+    color: #fff; 
+    text-decoration: none; 
+    /* cross-browser transition */
+    transition: all 500ms ease; 
+    -webkit-transition: all 500ms ease; 
+    -moz-transition: all 500ms ease; 
+    -ms-transition: all 500ms ease; 
+    -o-transition: all 500ms ease;
+  }
+  a:hover { color: red; text-decoration: none;}
+  a:visited { color: red; background: red;}
+  
+  ol, ul { margin: 0; padding: 0; list-style-type: none;}
+  ol li, ul li { }
+  
+/* Loader ------------------------------------------------------ 
+  * Guideline: 
+  *  It is the loader section. It uses an animation called "load". The keyframes for this animation is a few lines 
+  *  below. 
+  *  
+  *  -> The default .loader style is for three columns layout.
+  *  -> The default .loader.four style is for four columns layout.
+  *  -> The default .loader.two style is for two columns layout.
+  */
+  .loader { 
+    position: absolute; 
+    left: 0; 
+    top: 0;  
+    border: 1px solid red;
+    width: 100%;
+    /* cross-browser animation */
+    -webkit-animation-name: load;
+    -moz-animation-name: load;
+    -ms-animation-name: load;
+    -o-animation-name: load;
+    animation-name: load;
+    
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -ms-animation-duration: 6s;
+    -o-animation-duration: 6s;
+    animation-duration: 6s;
+    
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  .loader.four {
+    -webkit-animation-duration: 8s;
+    -moz-animation-duration: 8s;
+    -ms-animation-duration: 8s;
+    -o-animation-duration: 8s;
+    animation-duration: 8s;
+  }
+  .loader.two {
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -ms-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    animation-duration: 4s;
+  }
+ 
+  @-webkit-keyframes load {
+    0% { width: 0;}
+    100% { width: 100%;}
+  }
+  @-moz-keyframes load {
+    0% { width: 0;}
+    100% { width: 100%;}
+  }
+  @-o-keyframes load {
+    0% { width: 0;}
+    100% { width: 100%;}
+  }
+  @keyframes rotate {
+    0% { width: 0;}
+    100% { width: 100%;}
+  }
+  
+
+  
+  /************************************************/
+    #myname1 {
+	color: red;
+	/*text-align: left;*/
+    font-family: 'Lato', Arial; 
+    font-size: 40px;
+	top: 10px;
+	margin: 0 auto !important;
+	width:75%;
+	visibility:hidden;
+  }
+  
+   #myname2 {
+	color: red;
+	/*text-align: left;*/
+    font-family: 'Lato', Arial; 
+    font-size: 40px;
+	top: 10px;
+	margin: 0 auto !important;
+	width:75%;
+  }
+  
+   #myname3 {
+	color: red;
+	/*text-align: left;*/
+    font-family: 'Lato', Arial; 
+    font-size: 40px;
+	top: 10px;
+	margin: 0 auto !important;
+	width:75%;
+	visibility:hidden;
+  }
+#spacer {
+	color: black;
+	/*text-align: left;*/
+    font-family: 'Lato', Arial; 
+    font-size: 40px;
+	top: 10px;
+	margin: 0 auto !important;
+	width:75%;
+  }
+  
+
+#sliderFrame{
+position:absolute;
+top: 0px;
+width: 300px;
+/*max-height:900px;*/
+
+height:708px;
+
+z-index:9999;
+overflow:hidden;
+visibility:hidden;
+border:0;
+  }
+  
+  
+  #exitIFrameButton1{
+  position:absolute; 
+  top:30px;
+  left:47%; 
+  z-index:99999;
+  visibility:hidden;
+  }
+  /*
+    #exitIFrameButton2 {
+  position:absolute; 
+  top:85px;
+  left:79.2%; 
+  width:30px;
+  height:30px;
+  z-index:99999;
+  visibility:hidden;
+  }
+  */
+  /* Details ----------------------------------------------- */
+   .details { 
+    width: 97%;
+    height: 400px;
+    background-color: black;
+	border: 5px solid red; 
+
+    position: absolute;
+    top:220px;
+	
+	margin:10px;
+    z-index: 99;
+
+  }
+  
+     #details2 { 
+    width: 100%;
+    height: 400px;
+    background-color: black;
+	border: 5px solid red; 
+
+    position: absolute;
+    top:635px;
+	left:-2000px;
+
+    z-index: 99;
+
+  }
+
+  
+  
+  
+ 
+/* Demo ------------------------------------------------------ 
+  * Guidelines:
+  *  It is demo page switcher.   
+  */
+  .demo { 
+    position: fixed; 
+    width: 140px; 
+    top: 200px; 
+    z-index: 99;
+	 visibility: hidden; 
+  }
+  .demo a { 
+    border-left:5px solid red; 
+    background: rgb(94, 94, 94); 
+    padding: 10px 10px 10px 10px;
+    display: block; 
+    text-shadow: 0 0 0;
+  }
+  .demo a:hover{ 
+    z-index: 5; 
+    background: #fff; 
+    margin: 20px;
+  }
+  
+#pageContainer {
+    
+  /* border: 2px solid  #ffffff; */
+}
+     /*************************************************/
+ 
+  
+  
+/* Container ------------------------------------------------------ 
+ * Guidelines:
+ *  Default .container is 960px, which changes dynamically in different devices.
+ *  
+ *  -> .span3 is for three columns layout
+ *  -> .span4 is for four columns layout
+ *  -> .span2 is for two columns layout
+ */
+  .container { 
+	opacity: 1;
+    width: 960px; 
+    margin: 0 auto; 
+    *zoom: 1;
+  }
+  .container:before, .container:after { 
+    display: table; 
+    content: ""; 
+    line-height: 0;
+  }
+  .container:after { clear: both;}
+  
+  .span3 { width: 277px; margin: 20px 20px 40px;}
+  .span4 { width: 220px; margin: 20px 10px;}
+  .span2 { width: 440px; margin: 20px 20px 40px;}
+
+/* Item ----------------------------------------------------------- 
+ * Guidelines:
+ *  Depending on the number of columns, the number of ul.item will be defined.
+ *  e.g. four columns = four ul.item
+ *  e.g. three columns = three ul.item
+ *  
+ *  -> .item is every column class
+ *  -> .item li is the section that animation for every li has been defined. you can simply change the animation for 
+ *        all li from here. Consider that the keyframes for the animation is at the end.
+ */  
+  .item{ 
+    float: left; 
+  }
+  .item li { 
+    background: #aebcbf; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjYWViY2JmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjNmU3Nzc0IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjNDk0OTQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzJkMmQyZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(45deg, #aebcbf 0%, #6e7774 51%, #494949 51%, #2d2d2d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#aebcbf), color-stop(51%,#6e7774), color-stop(51%,#494949), color-stop(100%,#2d2d2d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, #aebcbf 0%,#6e7774 51%,#494949 51%,#2d2d2d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, #aebcbf 0%,#6e7774 51%,#494949 51%,#2d2d2d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #aebcbf 0%,#6e7774 51%,#494949 51%,#2d2d2d 100%); /* IE10+ */
+    background: linear-gradient(45deg, #aebcbf 0%,#6e7774 51%,#494949 51%,#2d2d2d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#2d2d2d',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+    -webkit-animation-name: bounceInUp;
+    -moz-animation-name: bounceInUp;
+    -ms-animation-name: bounceInUp;
+    -o-animation-name: bounceInUp;
+    animation-name: bounceInUp;
+    
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+  } 
+/* Item li ----------------------------------------------------------- 
+ * Guidelines:
+ *  By default this template supports 12 li (portfolio item) which every one of them has a unique id. If you want to add more, you shoud create new a li in the 
+ *    desired html file and give it an unique id. Then come here and create one li with the defined id like bellow. Just
+ *    consider that you should increase animation-delay.
+ */ 
+  #li_1{
+    animation-delay:1s;
+    -moz-animation-delay:1s; /* Firefox */
+    -webkit-animation-delay:1s; /* Safari and Chrome */
+    -ms-animation-delay:1s; /* IE */    
+    -o-animation-delay:1s; /* Opera */    
+  }
+  #li_2{
+    animation-delay:1.2s;
+    -moz-animation-delay:1.2s; /* Firefox */
+    -webkit-animation-delay:1.2s; /* Safari and Chrome */
+    -ms-animation-delay:1.2s; /* IE */    
+    -o-animation-delay:1.2s; /* Opera */    
+  }
+  #li_3{
+    animation-delay:1.4s;
+    -moz-animation-delay:1.4s; /* Firefox */
+    -webkit-animation-delay:1.4s; /* Safari and Chrome */
+    -ms-animation-delay:1.4s; /* IE */    
+    -o-animation-delay:1.4s; /* Opera */    
+  }
+  #li_4{
+    animation-delay:2s;
+    -moz-animation-delay:2s; /* Firefox */
+    -webkit-animation-delay:2s; /* Safari and Chrome */
+    -ms-animation-delay:2s; /* IE */    
+    -o-animation-delay:2s; /* Opera */    
+  }
+  #li_5{
+    animation-delay:2.2s;
+    -moz-animation-delay:2.2s; /* Firefox */
+    -webkit-animation-delay:2.2s; /* Safari and Chrome */
+    -ms-animation-delay:2.2s; /* IE */    
+    -o-animation-delay:2.2s; /* Opera */    
+  }
+  #li_6{
+    animation-delay:2.4s;
+    -moz-animation-delay:2.4s; /* Firefox */
+    -webkit-animation-delay:2.4s; /* Safari and Chrome */
+    -ms-animation-delay:2.4s; /* IE */    
+    -o-animation-delay:2.4s; /* Opera */    
+  }
+  #li_7{
+    animation-delay:3s;
+    -moz-animation-delay:3s; /* Firefox */
+    -webkit-animation-delay:3s; /* Safari and Chrome */
+    -ms-animation-delay:3s; /* IE */    
+    -o-animation-delay:3s; /* Opera */    
+  }
+  #li_8{
+    animation-delay:3.2s;
+    -moz-animation-delay:3.2s; /* Firefox */
+    -webkit-animation-delay:3.2s; /* Safari and Chrome */
+    -ms-animation-delay:3.2s; /* IE */    
+    -o-animation-delay:3.2s; /* Opera */    
+  }
+  #li_9{
+    animation-delay:3.4s;
+    -moz-animation-delay:3.4s; /* Firefox */
+    -webkit-animation-delay:3.4s; /* Safari and Chrome */
+    -ms-animation-delay:3.4s; /* IE */    
+    -o-animation-delay:3.4s; /* Opera */    
+  }
+  #li_10{
+    animation-delay:3.6s;
+    -moz-animation-delay:3.6s; /* Firefox */
+    -webkit-animation-delay:3.6s; /* Safari and Chrome */
+    -ms-animation-delay:3.6s; /* IE */    
+    -o-animation-delay:3.6s; /* Opera */    
+  }
+  #li_11{
+    animation-delay:3.8s;
+    -moz-animation-delay:3.8s; /* Firefox */
+    -webkit-animation-delay:3.8s; /* Safari and Chrome */
+    -ms-animation-delay:3.8s; /* IE */    
+    -o-animation-delay:3.8s; /* Opera */    
+  }
+  #li_12{
+    animation-delay:4.4s;
+    -moz-animation-delay:4.4s; /* Firefox */
+    -webkit-animation-delay:4.4s; /* Safari and Chrome */
+    -ms-animation-delay:4.4s; /* IE */    
+    -o-animation-delay:4.4s; /* Opera */    
+  }
+/* Item Button ----------------------------------------------------------- 
+ * Guidelines:
+ *  It is the button which represents the name of the category. 
+ *
+ *  -> .item button is the section that animation for every button has been defined. you can simply change the animation for 
+ *        all li from here. Consider that the keyframes for the animation is at the end.
+ */ 
+  .item button { 
+    border-left: 5px solid red; 
+    font-family: 'Lato', Arial; 
+    font-weight: 200;
+    border-top: none; 
+    border-bottom: none; 
+    border-right: none; 
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 11px rgba(0, 0, 0, 0.46); 
+    padding: 21px;  
+    position: relative; 
+    background: rgb(94, 94, 94); 
+    color: white; 
+    font-size: 30px;
+    
+    -webkit-animation-name: bounceInDown;
+    -moz-animation-name: bounceInDown;
+    -ms-animation-name: bounceInDown;
+    -o-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+    transition: all 500ms ease; 
+    -webkit-transition: all 500ms ease; 
+    -moz-transition: all 500ms ease; 
+    -ms-transition: all 500ms ease; 
+    -o-transition: all 500ms ease;
+  }
+  /* Specific button font size for four columns layout  */
+  .item button.span4 { 
+    font-size: 20px;
+  }
+  /* Specific button font size for two columns layout  */
+  .item button.span2 { 
+    font-size: 40px;
+  }
+  .item button:hover { 
+    background: #fff;
+    color: rgb(94, 94, 94);
+    text-shadow: 0 0 0;
+  }
+/* Buttons id ----------------------------------------------------------- 
+ * Guidelines:
+ *  By default this template supports four buttons which every one of them has a unique id. If you want to add more, you shoud create a new button in the 
+ *    desired html file and give it an unique id. Then come here and create one button with the defined id like bellow. Just
+ *    consider that you should increase animation-delay.
+ */
+  #btn_1 {
+    animation-delay:1s;
+    -moz-animation-delay:1s; /* Firefox */
+    -webkit-animation-delay:1s; /* Safari and Chrome */
+    -ms-animation-delay:1s; /* IE */
+    -o-animation-delay:1s; /* Opera */
+  }
+  #btn_2 {
+    animation-delay:2s;
+    -moz-animation-delay:2s; /* Firefox */
+    -webkit-animation-delay:2s; /* Safari and Chrome */
+    -ms-animation-delay:2s; /* IE */
+    -o-animation-delay:2s; /* Opera */
+  }
+  #btn_3 {
+    animation-delay:3s;
+    -moz-animation-delay:3s; /* Firefox */
+    -webkit-animation-delay:3s; /* Safari and Chrome */
+    -ms-animation-delay:3s; /* IE */
+    -o-animation-delay:3s; /* Opera */
+  }
+  #btn_4 {
+    animation-delay:4s;
+    -moz-animation-delay:4s; /* Firefox */
+    -webkit-animation-delay:4s; /* Safari and Chrome */
+    -ms-animation-delay:4s; /* IE */
+    -o-animation-delay:4s; /* Opera */
+  }
+  /* Image styles */
+  .item li img{  
+    
+	border-bottom: 5px solid red;
+    opacity: .9;
+    
+    transition: all 500ms ease; 
+    -webkit-transition: all 500ms ease; 
+    -moz-transition: all 500ms ease; 
+    -ms-transition: all 500ms ease; 
+    -o-transition: all 500ms ease;
+  }
+  .item li img:hover{   
+    opacity: 1;
+  }
+/* Item Title ----------------------------------------------------------- 
+ * Guidelines:
+ *  h1 of every li represents the title of the portfolio item. 
+ *
+ *  -> The animation of h1 starts when the user hovers over the portfolio item. You can change the animation name and
+ *    styles from here. The keyframes are at the end.
+ */
+  .item h1 {
+    border-bottom: 1px solid rgb(221, 221, 221); 
+    padding: 10px 0; 
+    margin: 0 10px;
+    color: white; 
+    font-weight: 100; 
+  }
+  .item li:hover h1 {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -ms-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    
+    animation-delay:0s;
+    -moz-animation-delay:0s; /* Firefox */
+    -webkit-animation-delay:0s; /* Safari and Chrome */
+    -ms-animation-delay:0s; /* IE */
+    -o-animation-delay:0s; /* Opera */
+    
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+/* Item Description ----------------------------------------------------------- 
+ * Guidelines:
+ *  p of every li represents the description of the portfolio item. 
+ *
+ *  -> The animation of p starts when the user hovers over the portfolio item. You can change the animation name and
+ *    styles from here. The keyframes are at the end.
+ */
+  .item p { 
+    padding: 10px; 
+    color: #fff;
+	cursor: pointer; cursor: hand;
+  }
+  .item li:hover p {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -ms-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    
+    animation-delay:1s;
+    -moz-animation-delay:1s; /* Firefox */
+    -webkit-animation-delay:1s; /* Safari and Chrome */
+    -ms-animation-delay:1s; /* IE */
+    -o-animation-delay:1s; /* Opera */
+    
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+/* Item Description ----------------------------------------------------------- 
+ * Guidelines:
+ *  a.more of every li is the "Read More..." button of the portfolio item. 
+ *
+ *  -> The animation of a.more starts when the user hovers over the portfolio item. You can change the animation name and
+ *    styles from here. The keyframes are at the end.
+ */  
+  .item a.more { 
+    padding: 10px; 
+    margin:20px 10px; 
+    background: red; 
+	visibility:hidden;
+    
+    transition: all 500ms ease; 
+    -webkit-transition: all 500ms ease; 
+    -moz-transition: all 500ms ease; 
+    -ms-transition: all 500ms ease; 
+    -o-transition: all 500ms ease;
+  }
+  .item a.more:hover { 
+    padding: 10px 20px; 
+    margin:10px 20px; 
+    background: #fff; 
+    text-shadow: 0 0 0;
+  }
+/* Item Permalink & Magnifier Icons ---------------------------------- 
+ * Guidelines:
+ *  These two icons uses font-face. 
+ *
+ *  -> .icon_1 is for the magnifier
+ *  -> .icon_2 is for the Permalink
+ *  -> The animation of the icons start when the user hovers over the portfolio item. You can change the animation name and
+ *    styles from here. The keyframes are at the end.
+ */ 
+  .icon {
+    font-family: 'ModernPictogramsNormal';
+    background: transparent;
+    font-size: 30px; 
+    padding: 5px;
+	visibility:hidden;
+  }
+  .icons {
+    width: 80px;
+    bottom: 10px;
+    position: absolute;
+    right: 0;
+  }
+  .icon_1 {
+    opacity: 0;
+    bottom: 0px;
+    position: absolute;
+  }
+  .icon_2 {
+    opacity: 0;
+    bottom: 0px;
+    right: 10px;
+    position: absolute;
+  }
+  .item li:hover .icon_1 { 
+    opacity: 1;
+    
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -ms-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    
+    animation-delay:1s;
+    -moz-animation-delay:1s; /* Firefox */
+    -webkit-animation-delay:1s; /* Safari and Chrome */
+    -ms-animation-delay:1s; /* IE */
+    -o-animation-delay:1s; /* Opera */
+    
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  .item li:hover .icon_2 { 
+    opacity: 1;
+    
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -ms-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    
+    animation-delay:2s;
+    -moz-animation-delay:2s; /* Firefox */
+    -webkit-animation-delay:2s; /* Safari and Chrome */
+    -ms-animation-delay:2s; /* IE */
+    -o-animation-delay:2s; /* Opera */
+    
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+/* font-face -------------------------------------------------- */    
+  @font-face {
+		font-family: 'ModernPictogramsNormal';
+		src: url('font/modernpics-webfont.eot');
+		src: url('font/modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('font/modernpics-webfont.woff') format('woff'),
+			 url('font/modernpics-webfont.ttf') format('truetype'),
+			 url('font/modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+  
+/* Media Queries ---------------------------------------------- */
+  /* Guideline:
+   *
+   * span3 indicates three columns layout
+   * span4 indicates four columns layout
+   * span2 indicates six columns layout
+   *
+   * three indicates three columns container which is used for elements style in responsive
+   * four indicates three columns container which is used for elements style in responsive
+   * two indicates six columns container which is used for elements style in responsive
+   *
+   */
+	/* Portrait */
+	@media only screen and (min-width: 700px) and (max-width: 950px){
+    .container { width: 733px; }
+    
+    h1{height: 100px;}
+    .span3 { width: 204px; margin: 20px;}
+    
+    .three button {font-size: 24px;}
+    
+    .four button.span4 {font-size: 18px;}
+    .four .icons {right: -14px;}
+    .four .item a.more {padding: 10px 5px;margin: 20px 5px;}
+    .four .item a.more:hover {padding: 10px 5px;margin: 20px 5px;}
+    #btn_1,#btn_2,#btn_3 {min-height:125px;}
+        
+  }
+
+@media only screen and (min-width: 615px) and (max-width: 699px){
+    .container { width: 733px; }
+    h1{height: 100px;}
+    .span3 { width: 150px; margin: 20px;}
+    #btn_1,#btn_2,#btn_3 {min-height:190px;}
+    
+}
+
+  /* Mobile portrait */
+	@media only screen and (max-width: 614px) {
+	#sliderFrame{
+		position:absolute;
+		top:575px;
+		width:80%;
+		margin-left:8%;
+  }	
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1){ 
+
+#sliderFrame{
+position:absolute;
+top:575px;
+width:300px;
+height:408px;
+z-index:9999;
+overflow:hidden;
+border:0;
+margin-left:50px;
+visibility:hidden;
+
+  }
+
+}	
+	
+
+		
+    .container { width: 285px; }
+    
+    .span3 { width: 249px; margin: 20px;}
+    .span4 { width: 269px; margin: 20px 10px;}
+    .span2 { width: 249px; margin: 20px 20px 40px;}
+    
+    .two button.span2 {font-size: 36px;}
+	
+	
+#myname1 {
+	color: red;
+	/*text-align: left;*/
+    font-family: 'Lato', Arial; 
+    font-size: 40px;
+	top: 10px;
+	margin: 0 auto !important;
+	width:75%;
+	visibility:visible;
+	
+  }
+  
+   #myname2 {
+	color: red;
+	/*text-align: left;*/
+    font-family: 'Lato', Arial; 
+    font-size: 40px;
+	top: 10px;
+	margin: 0 auto !important;
+	width:75%;
+	visibility:hidden;
+  }
+  
+   #myname3 {
+	color: red;
+	/*text-align: left;*/
+    font-family: 'Lato', Arial; 
+    font-size: 40px;
+	top: 10px;
+	margin: 0 auto !important;
+	width:75%;
+	visibility:hidden;
+  }
+	
+	
+  }
+
+  
+
+  
+  
+  
+  
+/* Keyframes --------------------------------------------------- 
+
+Animate.css - http://daneden.me/animate
+Licensed under the ? license (http://licence.visualidiot.com/)
+
+Copyright (c) 2012 Dan Eden
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-ms-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-ms-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* ------------------------------------------------------------ */
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-ms-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-ms-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* ------------------------------------------------------------ */
+@-webkit-keyframes bounceInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		-webkit-transform: translateY(-30px);
+	}
+	
+	80% {
+		-webkit-transform: translateY(10px);
+	}
+	
+	100% {
+		-webkit-transform: translateY(0);
+	}
+}
+@-moz-keyframes bounceInUp {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		-moz-transform: translateY(-30px);
+	}
+	
+	80% {
+		-moz-transform: translateY(10px);
+	}
+	
+	100% {
+		-moz-transform: translateY(0);
+	}
+}
+
+@-ms-keyframes bounceInUp {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		-ms-transform: translateY(-30px);
+	}
+	
+	80% {
+		-ms-transform: translateY(10px);
+	}
+	
+	100% {
+		-ms-transform: translateY(0);
+	}
+}
+
+@-o-keyframes bounceInUp {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		-o-transform: translateY(-30px);
+	}
+	
+	80% {
+		-o-transform: translateY(10px);
+	}
+	
+	100% {
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes bounceInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		transform: translateY(-30px);
+	}
+	
+	80% {
+		transform: translateY(10px);
+	}
+	
+	100% {
+		transform: translateY(0);
+	}
+}
+
+/* ------------------------------------------------------------ */
+@-webkit-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		-webkit-transform: translateY(30px);
+	}
+	
+	80% {
+		-webkit-transform: translateY(-10px);
+	}
+	
+	100% {
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		-moz-transform: translateY(30px);
+	}
+	
+	80% {
+		-moz-transform: translateY(-10px);
+	}
+	
+	100% {
+		-moz-transform: translateY(0);
+	}
+}
+
+@-ms-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(-2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		-ms-transform: translateY(30px);
+	}
+	
+	80% {
+		-ms-transform: translateY(-10px);
+	}
+	
+	100% {
+		-ms-transform: translateY(0);
+	}
+}
+
+@-o-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(-2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		-o-transform: translateY(30px);
+	}
+	
+	80% {
+		-o-transform: translateY(-10px);
+	}
+	
+	100% {
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		transform: translateY(30px);
+	}
+	
+	80% {
+		transform: translateY(-10px);
+	}
+	
+	100% {
+		transform: translateY(0);
+	}
+}
