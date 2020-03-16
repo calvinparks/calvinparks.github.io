@@ -51,6 +51,15 @@
     "imagePath": ["./assets/images/bannershavebutter.png","./assets/images/bannertrunkclub3.jpg","./assets/images/bannertrunkclub2.jpg"],
     "title": ["Shave Butter","Trunk Club","Trunk Club"],
     "description": ["Adobe Animate","Adobe Animate","Adobe Animate"]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["HTML5Banner22","HTML5Banner21","HTML5Banner23"],
+    "demoHeight": ["600","407","250"],
+    "demoWidth": ["300","296","300"],
+    "imagePath": ["./assets/images/NorthWesternMedical.png","./assets/images/JMBanner.png","./assets/images/fleetFarm.png"],
+    "title": ["Northwestern Medical","Jewelers Mutual","Fleet Farm"],
+    "description": ["Adobe Animate","Adobe Animate","Adobe Animate"]
   }
 
 ]

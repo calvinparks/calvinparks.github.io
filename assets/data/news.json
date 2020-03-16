@@ -2,6 +2,18 @@
 [
   {
     "clickThrough":["/misc"],
+    "imagePath": ["./assets/images/newsLaughlin.png"],
+    "date": ["March 2020"],
+    "description": ["Developer for a variety of Advertising Agency's client projects"]
+  },
+  {
+    "clickThrough":["/misc"],
+    "imagePath": ["./assets/images/newsKarching.png"],
+    "date": ["September 2019"],
+    "description": ["Developed AWS data-parsing and in-app product surfacing."]
+  },
+  {
+    "clickThrough":["/misc"],
     "imagePath": ["./assets/images/newsharperCollege.png"],
     "date": ["May 2019"],
     "description": ["Created automation system to generate student course guide."]

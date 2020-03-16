@@ -1,6 +1,6 @@
 [
   {
-    "clickThrough":["https://www.libertymutual.com/","https://www.nextlot.com","https://www.goarmy.com/"],
+    "clickThrough":["http://www.calvinparks.com/libertymutual/LibertyMutualExhibitsUserGuideSample.pdf","https://www.nextlot.com/nextlot-one","https://www.goarmy.com/"],
     "imagePath": ["./assets/images/libertyMutual.jpg","./assets/images/nextLot.png","./assets/images/ArmyLogos.jpg"],
     "title": ["Liberty Mutual","NextLot","U.S. Army"],
     "description": ["Remote developer of various Inkling Publishing Platform projects for the Commercial Insurance Dept, Underwriter Dept, and Distribution Department. HTML5, CSS3, SASS, Javascript, Bootstrap, Inkling Habitat, Adobe Animate, SVN..","Frontend & Backend Developer for Java and Flex based website and mobile App. Added prebid features which allows users to submit bids prior to the start of the auction. Java, Flex MXML, ActionScript 3 classes and UI, IntelliJ, Flashbuilder, Red5, GitHub.","System management and development of U.S.Army database that assisted in tracking manpower needs for the entire Korean theater of over 50,000 personnel. Wrote applications in INFORMIX relational database system, Pascal, and c-shell script."]
