@@ -40,7 +40,7 @@
     "demoHeight": ["70","600","600"],
     "demoWidth": ["730","300","300"],
     "imagePath": ["./assets/images/bannerAktipak.jpg","./assets/images/bannerDepaul.jpg","./assets/images/bannertrunkclub1.jpg"],
-    "title": ["Cutanea Aktipak","Depaul University","Trunk Club"],
+    "title": ["Cutanea Aktipak","Depaul University","Nordstrom"],
     "description": ["Pure Hand Coding","Google Web Designer","Adobe Animate"]
   },
   {
@@ -49,7 +49,7 @@
     "demoHeight": ["250","250","250"],
     "demoWidth": ["300","300","300"],
     "imagePath": ["./assets/images/bannershavebutter.png","./assets/images/bannertrunkclub3.jpg","./assets/images/bannertrunkclub2.jpg"],
-    "title": ["Shave Butter","Trunk Club","Trunk Club"],
+    "title": ["Shave Butter","Nordstrom","Nordstrom"],
     "description": ["Adobe Animate","Adobe Animate","Adobe Animate"]
   },
   {
@@ -59,6 +59,15 @@
     "demoWidth": ["300","296","300"],
     "imagePath": ["./assets/images/NorthWesternMedical.png","./assets/images/JMBanner.png","./assets/images/fleetFarm.png"],
     "title": ["Northwestern Medical","Jewelers Mutual","Fleet Farm"],
+    "description": ["Adobe Animate","Adobe Animate","Adobe Animate"]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["HTML5Banner24","HTML5Banner25","HTML5Banner26"],
+    "demoHeight": ["280","600","600"],
+    "demoWidth": ["336","160","300"],
+    "imagePath": ["./assets/images/TrunkSpring1.png","./assets/images/TrunkSpring2.png","./assets/images/TrunkSpring3.png"],
+    "title": ["Nordstrom","Nordstrom","Nordstrom"],
     "description": ["Adobe Animate","Adobe Animate","Adobe Animate"]
   }
 
