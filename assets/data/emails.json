@@ -16,6 +16,14 @@
     "imagePath": ["./assets/images/HoosierEmail3.png","./assets/images/HoosierEmail4.png","./assets/images/HoosierEmail5.png"],
     "title": ["Indiana Lottery","Indiana Lottery","Indiana Lottery"],
     "description": ["Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS.","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS.","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS."]
+  },{
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["luckyDog","gameon","UATP2"],
+    "demoHeight": ["1900","2220","1850"],
+    "demoWidth": ["650","650","650"],
+    "imagePath": ["./assets/images/luckydogEmail.png","./assets/images/gameonEmail.png","./assets/images/utaEmail.png"],
+    "title": ["Indiana Lottery","Indiana Lottery","UATP"],
+    "description": ["Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS.","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS.","Responsive email template for Universal Air Travel Plan. Deployed on the Hubspot Platform.  Developed using MJML, HTML, CSS."]
   },
   {
     "clickThrough":["/emails","/misc","/nonnativeapps"],
