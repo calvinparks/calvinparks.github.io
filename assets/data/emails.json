@@ -19,7 +19,7 @@
   },{
     "clickThrough":["/emails","/misc","/nonnativeapps"],
     "demoPath": ["luckyDog","gameon","UATP2"],
-    "demoHeight": ["1900","2220","1850"],
+    "demoHeight": ["2100","2220","1850"],
     "demoWidth": ["650","650","650"],
     "imagePath": ["./assets/images/luckydogEmail.png","./assets/images/gameonEmail.png","./assets/images/utaEmail.png"],
     "title": ["Indiana Lottery","Indiana Lottery","UATP"],

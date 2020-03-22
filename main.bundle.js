@@ -646,7 +646,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "body {\r\n    min-height: 100px;\r\n    text-align: center;\r\n}\r\n\r\ndiv a img {\r\n    margin-top: 100px;\r\n    width: 100px;\r\n}\r\n\r\niframe {\r\n    display: block;\r\n    width: 70%;\r\n    min-height:  1700px;\r\n    margin-top: 10px;\r\n    margin-bottom: 100px;\r\n    background-color: white;\r\n    overflow:hidden;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, "body {\r\n    min-height: 100px;\r\n    text-align: center;\r\n}\r\n\r\ndiv a img {\r\n    margin-top: 100px;\r\n    width: 100px;\r\n}\r\n\r\niframe {\r\n    display: block;\r\n    width: 70%;\r\n    min-height:  1700px;\r\n    margin-top: 10px;\r\n    margin-bottom: 100px;\r\n    background-color: white;\r\n    overflow:hidden;\r\n}\r\n\r\n@media only screen and (max-width:599px) {\r\n    iframe {\r\n\r\n        max-height:  290px !important;\r\n        height: 830px !important;\r\n    }\r\n  }", ""]);
 
 // exports
 
@@ -702,6 +702,16 @@ var DemosComponent = /** @class */ (function () {
     };
     DemosComponent.prototype.setHeight = function () {
         this.iframeHeight = this.demoHeight;
+        // alert(window.innerWidth); //755
+        // alert(this.iframeHeight);
+        if (window.innerWidth < 755) {
+            var tmpHeight = this.iframeHeight.substring(0, this.iframeHeight.length - 2);
+            var deltaHeight = Number(tmpHeight) * .62;
+            var newHeight = Number(tmpHeight) + deltaHeight;
+            var newHeightString = String(newHeight) + "px";
+            return newHeightString;
+            // return "3400px";  // add 1300
+        }
         return this.iframeHeight;
     };
     DemosComponent.prototype.setWidth = function () {
