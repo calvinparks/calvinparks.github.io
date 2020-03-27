@@ -381,7 +381,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/banners/banners.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n    <div class=\"row\">\n          <div class=\"col-md-12\"></div>\n        <h1 class=\"title\"><a href=\"\">www.CalvinParks.com</a><br/> <span>Banner Ads</span></h1>\n        \n    </div>\n      <br/><br/>\n      \n        <section class=\"group\">\n            <div class=\"row\" *ngFor=\"let postData of postsData; let last = last\" >\n                <div class=\"col-md-4 category\" >\n                  <a (click)=\"showDemo(postData.demoPath[0],postData.demoHeight[0],postData.demoWidth[0])\">\n                  <img src=\"{{postData.imagePath[0]}}\" class=\"w-100\">\n                  <div class=\"category-title\">\n                    <p>{{postData.title[0]}}</p>\n                    <hr>\n                    <p>{{postData.description[0]}}</p>\n                  </div>\n                  </a>\n                </div>\n                <div class=\"col-md-4 category\" >\n                <a (click)=\"showDemo(postData.demoPath[1],postData.demoHeight[1],postData.demoWidth[1])\">\n                  <img src=\"{{postData.imagePath[1]}}\" class=\"w-100\">\n                  <div class=\"category-title\">\n                      <p>{{postData.title[1]}}</p>\n                      <hr>\n                      <p>{{postData.description[1]}}</p>\n                  </div> \n                </a>\n                </div>\n                  <div class=\"col-md-4 category\">\n                    <a (click)=\"showDemo(postData.demoPath[2],postData.demoHeight[2],postData.demoWidth[2])\">\n                    <img src=\"{{postData.imagePath[2]}}\" class=\"w-100\">\n                    <div class=\"category-title\">\n                      <p>{{postData.title[2]}}</p>\n                      <hr>\n                      <p>{{postData.description[2]}}</p>\n                    </div>\n                    </a>\n                  </div> \n                  <br>&nbsp; <br>\n            </div>\n            <br>\n            <div class=\"col-md-12 email-contact\">\n                Contact: mailbox@calvinparks.com \n            </div>\n        </section>\n    <br><br>\n   \n  </div>\n  \n  <br><br>\n "
+module.exports = "<div class=\"container\">\n    <div class=\"row\">\n          <div class=\"col-md-12\"></div>\n        <h1 class=\"title\"><a href=\"\">www.CalvinParks.com</a><br/> <span>Banner Ads</span></h1>\n        \n    </div>\n      <br/><br/>\n      \n        <section class=\"group\">\n            <div class=\"row\" *ngFor=\"let postData of postsData; let last = last\" >\n                <div class=\"col-md-4 category\" >\n                  <a (click)=\"showDemo(postData.demoPath[0],postData.demoHeight[0],postData.demoWidth[0])\">\n                  <img src=\"{{postData.imagePath[0]}}\" class=\"w-100\">\n                  <div class=\"category-title\">\n                    <p>{{postData.title[0]}}</p>\n                    <hr>\n                    <p>{{postData.description[0]}}</p>\n                  </div>\n                  </a>\n                  <br/>\n                </div>\n                <div class=\"col-md-4 category\" >\n                <a (click)=\"showDemo(postData.demoPath[1],postData.demoHeight[1],postData.demoWidth[1])\">\n                  <img src=\"{{postData.imagePath[1]}}\" class=\"w-100\">\n                  <div class=\"category-title\">\n                      <p>{{postData.title[1]}}</p>\n                      <hr>\n                      <p>{{postData.description[1]}}</p>\n                  </div> \n                </a>\n                <br/>\n                </div>\n                  <div class=\"col-md-4 category\">\n                    <a (click)=\"showDemo(postData.demoPath[2],postData.demoHeight[2],postData.demoWidth[2])\">\n                    <img src=\"{{postData.imagePath[2]}}\" class=\"w-100\">\n                    <div class=\"category-title\">\n                      <p>{{postData.title[2]}}</p>\n                      <hr>\n                      <p>{{postData.description[2]}}</p>\n                    </div>\n                    </a>\n                    <br/>\n                  </div> \n                  <br>&nbsp; <br>\n            </div>\n            <br>\n            <div class=\"col-md-12 email-contact\">\n                Contact: mailbox@calvinparks.com \n            </div>\n        </section>\n    <br><br>\n   \n  </div>\n  \n  <br><br>\n "
 
 /***/ }),
 
@@ -471,7 +471,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/categories/categories.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<ng-progress></ng-progress>\n<div class=\"container\">\n  <div class=\"row\">\n        <div class=\"col-md-12\"></div>\n      <h1 class=\"title\"><a href=\"\">www.CalvinParks.com</a></h1>\n  </div>\n    <br/><br/>\n    \n      <section class=\"group\" >\n        <div class=\"news\">Latest Project News</div>\n            <div class=\"row\" >\n                <div class=\"col-md-12 news-ticker\" id=\"news-ticker\" (click)=\"news_onClick($event)\">\n                  <div  class=\"news-items\" *ngFor=\"let storyData of newsData\">\n                    <div class=\"news-item\"> <div class=\"news-ticker-img\"><img src=\"{{storyData.imagePath[0]}}\" ></div><div class=\"news-item-text\"><div class=\"news-date\">{{storyData.date[0]}}</div>{{storyData.description[0]}}</div></div>\n                  </div>\n                </div>\n            </div>\n          <br/><br/>\n\n        <div class=\"row\" *ngFor=\"let postData of postsData; let last = last;\" >\n            <div class=\"col-md-4 category\" >\n              <a href=\"{{postData.clickThrough[0]}}\">\n              <img src=\"{{postData.imagePath[0]}}\" class=\"w-100\">\n              <div class=\"category-title\">\n                <p>{{postData.title[0]}}</p>\n                <hr>\n                <p>{{postData.description[0]}}</p>\n              </div>\n              </a>\n            </div>\n            <div class=\"col-md-4 category\" >\n            <a href=\"{{postData.clickThrough[1]}}\">\n              <img src=\"{{postData.imagePath[1]}}\" class=\"w-100\">\n              <div class=\"category-title\">\n                  <p>{{postData.title[1]}}</p>\n                  <hr>\n                  <p>{{postData.description[1]}}</p>\n              </div> \n            </a>\n            </div>\n              <div class=\"col-md-4 category\">\n                <a href=\"{{postData.clickThrough[2]}}\">\n                <img src=\"{{postData.imagePath[2]}}\" class=\"w-100\">\n                <div class=\"category-title\">\n                  <p>{{postData.title[2]}}</p>\n                  <hr>\n                  <p>{{postData.description[2]}}</p>\n                </div>\n                </a>\n              </div>\n        </div> \n        <div class=\"col-md-12 email-contact\">\n            Contact: mailbox@calvinparks.com\n        </div>\n      </section>\n      \n  <br><br>\n \n  \n\n\n\n</div>\n\n<br><br><br><br><br><br>\n\n\n"
+module.exports = "<ng-progress></ng-progress>\n<div class=\"container\">\n  <div class=\"row\">\n        <div class=\"col-md-12\"></div>\n      <h1 class=\"title\"><a href=\"\">www.CalvinParks.com</a></h1>\n  </div>\n    <br/><br/>\n    \n      <section class=\"group\" >\n        <div class=\"news\">Latest Project News</div>\n            <div class=\"row\" >\n                <div class=\"col-md-12 news-ticker\" id=\"news-ticker\" (click)=\"news_onClick($event)\">\n                  <div  class=\"news-items\" *ngFor=\"let storyData of newsData\">\n                    <div class=\"news-item\"> <div class=\"news-ticker-img\"><img src=\"{{storyData.imagePath[0]}}\" ></div><div class=\"news-item-text\"><div class=\"news-date\">{{storyData.date[0]}}</div>{{storyData.description[0]}}</div></div>\n                  </div>\n                </div>\n            </div>\n          <br/><br/>\n\n        <div class=\"row\" *ngFor=\"let postData of postsData; let last = last;\" >\n            <div class=\"col-md-4 category\" >\n              <a href=\"{{postData.clickThrough[0]}}\">\n              <img src=\"{{postData.imagePath[0]}}\" class=\"w-100\">\n              <div class=\"category-title\">\n                <p>{{postData.title[0]}}</p>\n                <hr>\n                <p>{{postData.description[0]}}</p>\n              </div>\n              </a>\n              <br/>\n            </div> \n            <div class=\"col-md-4 category\" >\n            <a href=\"{{postData.clickThrough[1]}}\">\n              <img src=\"{{postData.imagePath[1]}}\" class=\"w-100\">\n              <div class=\"category-title\">\n                  <p>{{postData.title[1]}}</p>\n                  <hr>\n                  <p>{{postData.description[1]}}</p>\n              </div> \n            </a>\n            <br/>\n            </div> \n              <div class=\"col-md-4 category\">\n                <a href=\"{{postData.clickThrough[2]}}\">\n                <img src=\"{{postData.imagePath[2]}}\" class=\"w-100\">\n                <div class=\"category-title\">\n                  <p>{{postData.title[2]}}</p>\n                  <hr>\n                  <p>{{postData.description[2]}}</p>\n                </div>\n                </a>\n                <br/>\n              </div> \n        </div> \n        <div class=\"col-md-12 email-contact\">\n            Contact: mailbox@calvinparks.com\n        </div>\n      </section>\n      \n  <br><br>\n \n  \n\n\n\n</div>\n\n<br><br><br><br><br><br>\n\n\n"
 
 /***/ }),
 
@@ -646,7 +646,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "body {\r\n    min-height: 100px;\r\n    text-align: center;\r\n}\r\n\r\ndiv a img {\r\n    margin-top: 100px;\r\n    width: 100px;\r\n}\r\n\r\niframe {\r\n    display: block;\r\n    width: 70%;\r\n    min-height:  1700px;\r\n    margin-top: 10px;\r\n    margin-bottom: 100px;\r\n    background-color: white;\r\n    overflow:hidden;\r\n}\r\n\r\n@media only screen and (max-width:599px) {\r\n    iframe {\r\n\r\n        max-height:  290px !important;\r\n        height: 830px !important;\r\n    }\r\n  }", ""]);
+exports.push([module.i, "body {\r\n    min-height: 100px;\r\n    text-align: center;\r\n}\r\n\r\ndiv a img {\r\n    margin-top: 100px;\r\n    width: 100px;\r\n}\r\n\r\niframe {\r\n    display: block;\r\n    width: 70%;\r\n    margin-top: 10px;\r\n    margin-bottom: 100px;\r\n    background-color: white;\r\n    overflow:hidden;\r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -659,7 +659,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/demos/demos.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<h1 class=\"title\"><a href=\"\">www.CalvinParks.com</a><br/> <span>Examples</span></h1>\n<div align=\"center\">\n  <a href=\"#{{demoRefferURL}}\"><img src=\"./assets/images/backButton.png\"></a>\n  \n  <iframe #sliderFrame [style.background-color]=\"setBackgroundColor()\" [style.min-height]=\"setHeight()\" [style.max-width]=\"setWidth()\" height=\"auto\" [src]=\"getDemoURL() | safe\" scrolling=\"no\"></iframe>\n </div>"
+module.exports = "\n\n<h1 class=\"title\"><a href=\"\">www.CalvinParks.com</a><br/> <span>Examples</span></h1>\n<div align=\"center\">\n  <a href=\"#{{demoRefferURL}}\"><img src=\"./assets/images/backButton.png\"></a>\n  \n  <iframe #sliderFrame id=\"demoIframe\" [style.background-color]=\"setBackgroundColor()\"  [style.max-width]=\"setWidth()\" [style.min-height]=\"setHeight()\" [src]=\"getDemoURL() | safe\" scrolling=\"no\" (load)=\"setIframeHeight()\"></iframe>\n </div>\n\n \n\n<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n\n\n "
 
 /***/ }),
 
@@ -691,6 +691,23 @@ var DemosComponent = /** @class */ (function () {
         this.demoHeight = globals.demoHeight + "px";
         this.demoWidth = globals.demoWidth + "px";
     }
+    DemosComponent.prototype.getDocHeight = function (doc) {
+        doc = doc || document;
+        var body = doc.body, html = doc.documentElement;
+        var height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+        return height;
+    };
+    ;
+    DemosComponent.prototype.setIframeHeight = function () {
+        if (this.demoHeight != "0px")
+            return; // if banner skip code below
+        var doc = window.frames['demoIframe'].contentWindow.document;
+        var body_ = doc.body, html_ = doc.documentElement;
+        var height = Math.max(body_.scrollHeight, body_.offsetHeight, html_.clientHeight, html_.scrollHeight, html_.offsetHeight);
+        window.frames['demoIframe'].style.height = height + "px";
+        //window.frames['demoIframe'].style.border = "10px solid red";
+    };
+    ;
     DemosComponent.prototype.ngOnInit = function () {
         //window.document.getElementById('news-ticker').style.height="200px";
     };
@@ -701,17 +718,8 @@ var DemosComponent = /** @class */ (function () {
         // alert("DEMO inside ngAfterContentChecked");
     };
     DemosComponent.prototype.setHeight = function () {
+        //setTimeout(this.setIframeHeight, 100);
         this.iframeHeight = this.demoHeight;
-        // alert(window.innerWidth); //755
-        // alert(this.iframeHeight);
-        if (window.innerWidth < 755) {
-            var tmpHeight = this.iframeHeight.substring(0, this.iframeHeight.length - 2);
-            var deltaHeight = Number(tmpHeight) * .62;
-            var newHeight = Number(tmpHeight) + deltaHeight;
-            var newHeightString = String(newHeight) + "px";
-            return newHeightString;
-            // return "3400px";  // add 1300
-        }
         return this.iframeHeight;
     };
     DemosComponent.prototype.setWidth = function () {
@@ -769,7 +777,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/emails/emails.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n    <div class=\"row\">\n          <div class=\"col-md-12\"></div>\n        <h1 class=\"title\"><a href=\"\">www.CalvinParks.com</a><br/> <span>Content Rich E-Mails</span></h1>\n        \n    </div>\n      <br/><br/>\n      \n        <section class=\"group\">\n            <div class=\"row\" *ngFor=\"let postData of postsData\" >\n                <div class=\"col-md-4 category\" >\n                  <a (click)=\"showDemo(postData.demoPath[0],postData.demoHeight[0],postData.demoWidth[0])\">\n                  <img src=\"{{postData.imagePath[0]}}\" class=\"w-100\">\n                  <div class=\"category-title\">\n                    <p>{{postData.title[0]}}</p>\n                    <hr>\n                    <p>{{postData.description[0]}}</p>\n                  </div>\n                  </a>\n                </div>\n                <div class=\"col-md-4 category\" >\n                <a (click)=\"showDemo(postData.demoPath[1],postData.demoHeight[1],postData.demoWidth[1])\">\n                  <img src=\"{{postData.imagePath[1]}}\" class=\"w-100\">\n                  <div class=\"category-title\">\n                      <p>{{postData.title[1]}}</p>\n                      <hr>\n                      <p>{{postData.description[1]}}</p>\n                  </div> \n                </a>\n                </div>\n                <div class=\"col-md-4 category\" >\n                  <a (click)=\"showDemo(postData.demoPath[2],postData.demoHeight[2],postData.demoWidth[2])\">\n                    <img src=\"{{postData.imagePath[2]}}\" class=\"w-100\">\n                    <div class=\"category-title\">\n                        <p>{{postData.title[2]}}</p>\n                        <hr>\n                        <p>{{postData.description[2]}}</p>\n                    </div> \n                  </a>\n                  </div>\n                  <br>&nbsp;<br>\n            </div>\n            <br> \n            <div class=\"col-md-12 email-contact\">\n                Contact: mailbox@calvinparks.com \n            </div>\n        </section>\n    <br><br>\n   \n  </div>\n  \n  <br><br>\n "
+module.exports = "<div class=\"container\">\n    <div class=\"row\">\n          <div class=\"col-md-12\"></div>\n        <h1 class=\"title\"><a href=\"\">www.CalvinParks.com</a><br/> <span>Content Rich E-Mails</span></h1>\n        \n    </div>\n      <br/><br/>\n      \n        <section class=\"group\">\n            <div class=\"row\" *ngFor=\"let postData of postsData\" >\n                <div class=\"col-md-4 category\" >\n                  <a (click)=\"showDemo(postData.demoPath[0],postData.demoHeight[0],postData.demoWidth[0])\">\n                  <img src=\"{{postData.imagePath[0]}}\" class=\"w-100\">\n                  <div class=\"category-title\">\n                    <p>{{postData.title[0]}}</p>\n                    <hr>\n                    <p>{{postData.description[0]}}</p>\n                  </div>\n                  </a>\n                  <br/>\n                </div>\n                <div class=\"col-md-4 category\" >\n                <a (click)=\"showDemo(postData.demoPath[1],postData.demoHeight[1],postData.demoWidth[1])\">\n                  <img src=\"{{postData.imagePath[1]}}\" class=\"w-100\">\n                  <div class=\"category-title\">\n                      <p>{{postData.title[1]}}</p>\n                      <hr>\n                      <p>{{postData.description[1]}}</p>\n                  </div> \n                </a>\n                <br/>\n                </div>\n                <div class=\"col-md-4 category\" >\n                  <a (click)=\"showDemo(postData.demoPath[2],postData.demoHeight[2],postData.demoWidth[2])\">\n                    <img src=\"{{postData.imagePath[2]}}\" class=\"w-100\">\n                    <div class=\"category-title\">\n                        <p>{{postData.title[2]}}</p>\n                        <hr>\n                        <p>{{postData.description[2]}}</p>\n                    </div> \n                  </a>\n                  <br/>\n                  </div>\n                  <br>&nbsp;<br>\n            </div>\n            <br> \n            <div class=\"col-md-12 email-contact\">\n                Contact: mailbox@calvinparks.com \n            </div>\n        </section>\n    <br><br>\n   \n  </div>\n  \n  <br><br>\n\n "
 
 /***/ }),
 
@@ -822,6 +830,9 @@ var EmailsComponent = /** @class */ (function () {
         this.globals.demoWidth = theWidth;
         this.route.navigateByUrl('/demos');
         Object(__WEBPACK_IMPORTED_MODULE_2__globals_globals_component__["d" /* setScrollCookie */])();
+    };
+    EmailsComponent.prototype.setNewPageSize = function () {
+        alert('hello world!');
     };
     EmailsComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
