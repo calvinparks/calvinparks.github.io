@@ -38,7 +38,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<ng-progress\r\n    [positionUsing]=\"'marginLeft'\"\r\n    [direction]=\"'leftToRightIncreased'\"\r\n    [color]=\"'#ffff00'\"\r\n    [trickleSpeed]=\"500\" \r\n    [thick]=\"true\" \r\n    [ease]=\"'easeInSine'\"\r\n    [showSpinner]= \"true\"\r\n></ng-progress>\r\n<router-outlet></router-outlet>"
+module.exports = "<ng-progress\n    [positionUsing]=\"'marginLeft'\"\n    [direction]=\"'leftToRightIncreased'\"\n    [color]=\"'#ffff00'\"\n    [trickleSpeed]=\"500\" \n    [thick]=\"true\" \n    [ease]=\"'easeInSine'\"\n    [showSpinner]= \"true\"\n></ng-progress>\n<router-outlet></router-outlet>"
 
 /***/ }),
 
@@ -268,7 +268,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".video-preview {\r\n\r\n\r\n}\r\n\r\n.current-row3 {\r\n   /* min-height: 1012px;  */\r\n}", ""]);
+exports.push([module.i, ".video-preview {\n\n\n}\n\n.current-row3 {\n   /* min-height: 1012px;  */\n}", ""]);
 
 // exports
 
@@ -458,7 +458,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".news {\r\n      margin: 0 auto;\r\n      width: 100%; \r\n      text-align: center;\r\n      color: white;\r\n      opacity: 0.3;\r\n  }\r\n\r\n.news-ticker {\r\n    opacity: 0.3;\r\n    border-top: 5px solid red;\r\n    border-bottom: 5px solid red;\r\n    padding-top: 10px;\r\n    padding-bottom: 10px !important;\r\n    max-height: 200px !important; \r\n    max-width: 98%;\r\n    margin: 0 auto;\r\n    text-align: center;\r\n    float: clear;\r\n    overflow-x: scroll;\r\n    overflow-y: hidden;\r\n    color: rgb(211, 177, 177); \r\n    white-space: nowrap;\r\n    -webkit-transition: height .5s;\r\n    transition: height .5s;\r\n    height: 100px;\r\n\r\n    -webkit-touch-callout: none; /* iOS Safari */\r\n    -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\r\n       -moz-user-select: none; /* Firefox */\r\n        -ms-user-select: none; /* Internet Explorer/Edge */\r\n            user-select: none; /* Non-prefixed version, currently\r\n                                  supported by Chrome and Opera */\r\n}\r\n\r\n.news-ticker:hover { \r\n    opacity: 1;\r\n    max-height: 200px !important;\r\n    -webkit-transition: height .5s;\r\n    transition: height .5s;\r\n    height: 200px;\r\n    \r\n}\r\n\r\n.news-items {\r\n    display: inline-block;\r\n    -webkit-box-sizing: content-box;\r\n            box-sizing: content-box;\r\n}\r\n\r\n.news-item {\r\n    vertical-align: top;\r\n    border: 0px solid white; \r\n    margin-bottom: 10px;\r\n    margin-right: 30px;\r\n    max-width: 200px;\r\n    min-width: 200px;\r\n    \r\n    max-height: 150px;\r\n    min-height: 150px;\r\n\r\n   /* float: left; */\r\n    display: inline-block;\r\n  /*  text-align: center; */\r\n}\r\n\r\n.news-ticker-img {\r\n    border: 0px solid green; \r\n    /* min-height: 50px;  */\r\n}\r\n\r\n.news-item img {\r\n    max-width: 150px;\r\n    /* min-height: 100px; */\r\n}\r\n\r\n.news-item-text {\r\n    border: 0px solid red;\r\n    font-size: 14px; \r\n    max-height: 50px !important;\r\n    min-height: 50px !important;\r\n    margin: 0 auto;\r\n    max-width: 80% !important;\r\n    text-align: left;\r\n    white-space: pre-wrap;\r\n}\r\n\r\n.news-date {\r\n    padding-left:5px;\r\n    color: red;\r\n}\r\n\r\n::-webkit-scrollbar-thumb { \r\n    border-radius: 4px; \r\n    border-color: black;\r\n    background: rgb(177, 4, 4); \r\n    width: 100px !important;\r\n}\r\n\r\n::-webkit-scrollbar {\r\n    height: 10px;\r\n    width: 300px !important;\r\n    \r\n}", ""]);
+exports.push([module.i, ".news {\n      margin: 0 auto;\n      width: 100%; \n      text-align: center;\n      color: white;\n      opacity: 0.3;\n  }\n\n.news-ticker {\n    opacity: 0.3;\n    border-top: 5px solid red;\n    border-bottom: 5px solid red;\n    padding-top: 10px;\n    padding-bottom: 10px !important;\n    max-height: 200px !important; \n    max-width: 98%;\n    margin: 0 auto;\n    text-align: center;\n    float: clear;\n    overflow-x: scroll;\n    overflow-y: hidden;\n    color: rgb(211, 177, 177); \n    white-space: nowrap;\n    -webkit-transition: height .5s;\n    transition: height .5s;\n    height: 100px;\n\n    -webkit-touch-callout: none; /* iOS Safari */\n    -webkit-user-select: none; /* Safari */ /* Konqueror HTML */\n       -moz-user-select: none; /* Firefox */\n        -ms-user-select: none; /* Internet Explorer/Edge */\n            user-select: none; /* Non-prefixed version, currently\n                                  supported by Chrome and Opera */\n}\n\n.news-ticker:hover { \n    opacity: 1;\n    max-height: 200px !important;\n    -webkit-transition: height .5s;\n    transition: height .5s;\n    height: 200px;\n    \n}\n\n.news-items {\n    display: inline-block;\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n}\n\n.news-item {\n    vertical-align: top;\n    border: 0px solid white; \n    margin-bottom: 10px;\n    margin-right: 30px;\n    max-width: 200px;\n    min-width: 200px;\n    \n    max-height: 150px;\n    min-height: 150px;\n\n   /* float: left; */\n    display: inline-block;\n  /*  text-align: center; */\n}\n\n.news-ticker-img {\n    border: 0px solid green; \n    /* min-height: 50px;  */\n}\n\n.news-item img {\n    max-width: 150px;\n    /* min-height: 100px; */\n}\n\n.news-item-text {\n    border: 0px solid red;\n    font-size: 14px; \n    max-height: 50px !important;\n    min-height: 50px !important;\n    margin: 0 auto;\n    max-width: 80% !important;\n    text-align: left;\n    white-space: pre-wrap;\n}\n\n.news-date {\n    padding-left:5px;\n    color: red;\n}\n\n::-webkit-scrollbar-thumb { \n    border-radius: 4px; \n    border-color: black;\n    background: rgb(177, 4, 4); \n    width: 100px !important;\n}\n\n::-webkit-scrollbar {\n    height: 10px;\n    width: 300px !important;\n    \n}", ""]);
 
 // exports
 
@@ -646,7 +646,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "body {\r\n    min-height: 100px;\r\n    text-align: center;\r\n}\r\n\r\ndiv a img {\r\n    margin-top: 100px;\r\n    width: 100px;\r\n}\r\n\r\niframe {\r\n    display: block;\r\n    width: 70%;\r\n    margin-top: 10px;\r\n    margin-bottom: 100px;\r\n    background-color: white;\r\n    overflow:hidden;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, "body {\n    min-height: 100px;\n    text-align: center;\n}\n\ndiv a img {\n    margin-top: 100px;\n    width: 100px;\n}\n\niframe {\n    display: block;\n    width: 70%;\n    margin-top: 10px;\n    margin-bottom: 100px;\n    background-color: white;\n    overflow:hidden;\n}\n\n", ""]);
 
 // exports
 
@@ -764,7 +764,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "a {\r\n    cursor: pointer;\r\n}", ""]);
+exports.push([module.i, "a {\n    cursor: pointer;\n}", ""]);
 
 // exports
 
@@ -1332,7 +1332,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".category-title {\r\n\r\n /* min-height: 244px; */ \r\n}", ""]);
+exports.push([module.i, ".category-title {\n\n /* min-height: 244px; */ \n}", ""]);
 
 // exports
 
