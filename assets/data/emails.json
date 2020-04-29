@@ -42,6 +42,15 @@
     "imagePath": ["./assets/images/chase2.jpg","./assets/images/amgen.png","./assets/images/stanfordemail.png"],
     "title": ["Chase Bank","Amgen","Stanford University"],
     "description": ["Developer for marketing emails. HTML Tables, inline-CSS, Litmus testing","Developer for marketing emails. HTML Tables, inline-CSS","Developed several resusable MailChimp Templates."]
+  },
+  {
+    "clickThrough":["/elcamino1","/elcamino2","/elcamino3"],
+    "demoPath": ["elcamino1","elcamino2","elcamino3"],
+    "demoHeight": ["0","0","0"],
+    "demoWidth": ["900","900","900"],
+    "imagePath": ["./assets/images/elcamino1.png","./assets/images/elcamino2.png","./assets/images/elcamino3.png"],
+    "title": ["El Camino Health","El Camino Health","El Camino Health"],
+    "description": ["Developed emails for the Act-On CRM. HTML, CSS","Developed emails for the Act-On CRM. HTML, CSS","Developed emails for the Act-On CRM. HTML, CSS"]
   }
 
 ]
