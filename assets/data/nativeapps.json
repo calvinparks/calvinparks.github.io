@@ -1,9 +1,9 @@
 [
   {
-    "clickThrough":["https://github.com/calvinparks/readability","/nolink","/nolink"],
+    "clickThrough":["https://github.com/calvinparks/readability","https://github.com/calvinparks/filter","https://github.com/calvinparks/recover"],
     "imagePath": ["./assets/images/cprogramming.png","./assets/images/cprogramming.png","./assets/images/cprogramming.png"],
-    "title": ["Readability","Mavatar","CyberStar Developer and Designer for "],
-    "description": ["Computes the approximate grade level needed to comprehend paragraphs of text.","Producer for IPhone virutal tour guide. Project magement and product design for avatar hosted GPS tour guide app.","Developer and Designer for Android/Google Glass Avatar Commentator (prototype). An avatar will give syncronized commentary in real-time on the video that is playing on any other video device. Android SDK, PHP"]
+    "title": ["Readability","Image Filters","Recover Image"],
+    "description": ["Computes the approximate grade level needed to comprehend paragraphs of text.","A program that applies filters to BMPs.","a program that recovers JPEGs from a forensic image."]
   }
 
 ]
