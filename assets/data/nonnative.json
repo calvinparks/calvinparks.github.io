@@ -13,9 +13,9 @@
   },
   {
     "clickThrough":["/nolink","/nolink","/nolink"],
-    "imagePath": ["./assets/images/mobile_hooknew.png","./assets/images/blank.png","./assets/images/blank.png"],
-    "title": ["Indiana Lottery","",""],
-    "description": ["Developed Animated weekely InApp Trivia game, HTML, JavaSCript, Adobe Animate","",""]
+    "imagePath": ["./assets/images/mobile_hooknew.png","./assets/images/mobile_lyric_game.png","./assets/images/mobile_lotto.png"],
+    "title": ["Indiana Lottery","Indiana Lottery","Indiana Lottery"],
+    "description": ["Developed Animated weekely InApp Trivia game, HTML, JavaSCript, Adobe Animate.","Developed Game engine for 'Guess the Christmas Lyric' game.","Developed In-App content for the Hoosier lottery App."]
   }
 
 ]
