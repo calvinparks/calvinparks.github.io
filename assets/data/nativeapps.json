@@ -3,7 +3,7 @@
     "clickThrough":["https://github.com/calvinparks/readability","/nolink","/nolink"],
     "imagePath": ["./assets/images/cprogramming.png","./assets/images/cprogramming.png","./assets/images/cprogramming.png"],
     "title": ["Readability","Mavatar","CyberStar Developer and Designer for "],
-    "description": ["Computes the approximate grade level needed to comprehend some text. <a href='https://github.com/calvinparks/readability'>GitHub</a>","Producer for IPhone virutal tour guide. Project magement and product design for avatar hosted GPS tour guide app.","Developer and Designer for Android/Google Glass Avatar Commentator (prototype). An avatar will give syncronized commentary in real-time on the video that is playing on any other video device. Android SDK, PHP"]
+    "description": ["Computes the approximate grade level needed to comprehend paragraphs of text.","Producer for IPhone virutal tour guide. Project magement and product design for avatar hosted GPS tour guide app.","Developer and Designer for Android/Google Glass Avatar Commentator (prototype). An avatar will give syncronized commentary in real-time on the video that is playing on any other video device. Android SDK, PHP"]
   }
 
 ]
