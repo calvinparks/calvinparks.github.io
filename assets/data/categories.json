@@ -9,7 +9,7 @@
     "clickThrough":["#microsites","#instruction","#nativeapps"],
     "imagePath": ["./assets/images/category4.jpg","./assets/images/category5.jpg","./assets/images/category6.jpg"],
     "title": ["Websites","Instructional","GitHub Source Code"],
-    "description": ["Various marketing microsites. AJAX, JQuery, JavaScript, HTML, CSS, AS3, graphic design and processing.","Interactive training content. Adobe Animate, Photoshop, Premier, AS3, HTML5, CSS3, Greensock.","Project management and code development. Android-SDK, IOS."]
+    "description": ["Various marketing microsites. AJAX, JQuery, JavaScript, HTML, CSS, AS3, graphic design and processing.","Interactive training content. Adobe Animate, Photoshop, Premier, AS3, HTML5, CSS3, Greensock.","Project developend using: C, python, Flask, SQLite, HTML, JavaSript, Django and more"]
   },
   {
     "clickThrough":["#datavisual","","#socialmedia"],
