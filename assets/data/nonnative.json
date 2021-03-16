@@ -16,6 +16,12 @@
     "imagePath": ["./assets/images/mobile_hooknew.png","./assets/images/mobile_lyric_game.png","./assets/images/mobile_lotto.png"],
     "title": ["Indiana Lottery","Indiana Lottery","Indiana Lottery"],
     "description": ["Developed Animated weekely InApp Trivia game. Braze, HTML, CSS, JavaSCript, Adobe Animate.","Developed game engine for 'Guess the Christmas Lyric' game. Braze, HTML, CSS, JavaSCript","Developed In-App content for the Hoosier lottery App. Braze, HTML, CSS, JavaSCript"]
+  },
+  {
+    "clickThrough":["/nolink","/nolink","/nolink"],
+    "imagePath": ["./assets/images/meilingApp0.jpg","./assets/images/mavatarDemo.jpg","./assets/images/googleGlass.jpg"],
+    "title": ["Model","Mavatar","CyberStar Developer and Designer for "],
+    "description": ["Developer & Designer for Android Live Wallpaper. Photos rotate, Photos automatically update, Tap to see new photo. Double to visit pormotional website. Android SDK, PHP, PhotoShop","Producer for IPhone virutal tour guide. Project magement and product design for avatar hosted GPS tour guide app.","Developer and Designer for Android/Google Glass Avatar Commentator (prototype). An avatar will give syncronized commentary in real-time on the video that is playing on any other video device. Android SDK, PHP"]
   }
 
 ]
