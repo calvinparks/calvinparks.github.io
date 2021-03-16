@@ -1,10 +1,16 @@
 
 [
   {
-    "clickThrough":["/misc"],
+    "clickThrough":["/nonnative"],
     "imagePath": ["./assets/images/news_HooKnewTrivia.png"],
     "date": ["Febuary 2021"],
     "description": ["Developed Indiana Lottery weekly Trivia InApp Animated Game"]
+  },
+  {
+    "clickThrough":["/nonnative"],
+    "imagePath": ["./assets/images/news_lyric_game.png"],
+    "date": ["Febuary 2021"],
+    "description": ["Developed Game Engine for Indiana Lottery Christmas InApp"]
   },
   {
     "clickThrough":["/misc"],
