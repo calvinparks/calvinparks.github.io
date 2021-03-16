@@ -10,6 +10,12 @@
     "imagePath": ["./assets/images/mcQuotes.jpg","./assets/images/matchgame1.jpg","./assets/images/karchingmobile.png"],
     "title": ["QT Marketing","Match Game","Karching"],
     "description": ["Developer for commodities trading App built with the Sencha Touch framework, JavaScript, HTML5 CSS.","Developer Avatar hosted match game application. Adobie Air, AS3.","Developer for custom webviews and Amazon product search API, WordPress, PHP, MySQL, Python, AWS, Google Cloud."]
+  },
+  {
+    "clickThrough":["/nolink","/nolink","/nolink"],
+    "imagePath": ["./assets/images/mobile_hooknew.png","./assets/images/blank.jpg","./assets/images/blank.png"],
+    "title": ["Indiana Lottery","Match Game","Karching"],
+    "description": ["Developed Animated weekely InApp Trivia game, HTML, JavaSCript, Adobe Animate","",""]
   }
 
 ]
