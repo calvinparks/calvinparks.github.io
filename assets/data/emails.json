@@ -54,12 +54,12 @@
   },
   {
     "clickThrough":["/emails","/misc","/nonnativeapps"],
-    "demoPath": ["chase1","amgen0","stanford1"],
+    "demoPath": ["whoknew","sentrysafe","laughlin"],
     "demoHeight": ["0","0","0"],
     "demoWidth": ["900","900","900"],
     "imagePath": ["./assets/images/email_hooknew.png","./assets/images/email_sentrySafe.png","./assets/images/email_laughlin.png"],
-    "title": ["Chase Bank","Amgen","Stanford University"],
-    "description": ["Developer for marketing emails. HTML Tables, inline-CSS, Litmus testing","Developer for marketing emails. HTML Tables, inline-CSS","Developed several resusable MailChimp Templates."]
+    "title": ["Indiana Lottery","MasterLock/SentrySafe","Laughlin Constable"],
+    "description": ["Developer for marketing emails. HTML Tables, inline-CSS, Braze","Developer for marketing emails. HTML Tables, inline-CSS, Eloqua","Developer for marketing emails. HTML Tables, inline-CSS, Hubspot"]
   }
 
 ]
