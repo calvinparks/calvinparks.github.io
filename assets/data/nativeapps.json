@@ -6,10 +6,16 @@
     "description": ["Computes the approximate grade level needed to comprehend paragraphs of text.","A program that applies filters to BMPs.","a program that recovers JPEGs from a forensic image."]
   },
   {
-    "clickThrough":["","",""],
+    "clickThrough":["https://github.com/calvinparks/tournament","https://github.com/calvinparks/cash","https://github.com/calvinparks/finance"],
     "imagePath": ["./assets/images/pythonprogramming.png","./assets/images/pythonprogramming.png","./assets/images/pythonprogramming.png"],
-    "title": ["Simulation","Change","Finance"],
+    "title": ["Tournament","Cash","Finance"],
     "description": ["A program to run simulations of the FIFA World Cup","A program that calculates the minimum number of coins required to give a user change","A website via which users can “buy” and “sell” stocks using FLask, SQLite, HTML, CSS and Javascript."]
-  }
+  },
+  {
+    "clickThrough":["https://github.com/calvinparks/inheritance","https://github.com/calvinparks/Plurality","https://github.com/calvinparks/mario"],
+    "imagePath": ["./assets/images/cprogramming.png","./assets/images/cprogramming.png","./assets/images/cprogramming.png"],
+    "title": ["Inheritance","Plurality",""],
+    "description": ["Simulate the inheritance of blood types for each member of a family","A program that runs a plurality election","A program that that creats a pyramid of pound signs (#)."]
+  },
 
 ]
