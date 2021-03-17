@@ -14,7 +14,7 @@
   {
     "clickThrough":["https://github.com/calvinparks/inheritance","https://github.com/calvinparks/Plurality","https://github.com/calvinparks/mario"],
     "imagePath": ["./assets/images/cprogramming.png","./assets/images/cprogramming.png","./assets/images/cprogramming.png"],
-    "title": ["Inheritance","Plurality",""],
+    "title": ["Inheritance","Plurality","Pyramid"],
     "description": ["Simulate the inheritance of blood types for each member of a family","A program that runs a plurality election","A program that that creats a pyramid of pound signs (#)."]
   },
 
