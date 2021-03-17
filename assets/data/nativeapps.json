@@ -9,7 +9,7 @@
     "clickThrough":["https://github.com/calvinparks/tournament","https://github.com/calvinparks/cash","https://github.com/calvinparks/finance"],
     "imagePath": ["./assets/images/pythonprogramming.png","./assets/images/pythonprogramming.png","./assets/images/pythonprogramming.png"],
     "title": ["Tournament","Cash","Finance"],
-    "description": ["A program to run simulations of the FIFA World Cup","A program that calculates the minimum number of coins required to give a user change","A website via which users can “buy” and “sell” stocks using FLask, SQLite, HTML, CSS and Javascript."]
+    "description": ["A program to run simulations of the FIFA World Cup","A program that calculates the minimum number of coins required to give a user change","A website via which users can “buy” and “sell” stocks using FLask, SQLite, Dajango, HTML, CSS and Javascript."]
   },
   {
     "clickThrough":["https://github.com/calvinparks/inheritance","https://github.com/calvinparks/Plurality","https://github.com/calvinparks/mario"],
@@ -19,9 +19,9 @@
   },
   {
     "clickThrough":["https://github.com/calvinparks/birthdays","",""],
-    "imagePath": ["./assets/images/cprogramming.png","./assets/images/cprogramming.png","./assets/images/cprogramming.png"],
+    "imagePath": ["./assets/images/pythonprogramming.png","./assets/images/cprogramming.png","./assets/images/cprogramming.png"],
     "title": ["Birthdays","",""],
-    "description": ["A web application to keep track of friends’ birthdays","",""]
+    "description": ["A web application to keep track of friends’ birthdays using using FLask, SQLite, Dajango, HTML, CSS and Javascript.","",""]
   }
 
 ]
