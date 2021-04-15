@@ -13,12 +13,6 @@
     "description": ["Developed Game Engine for Indiana Lottery Christmas InApp"]
   },
   {
-    "clickThrough":["/noLink"],
-    "imagePath": ["./assets/images/news_harvardX.png"],
-    "date": ["June 2020"],
-    "description": ["Enrolled in a 9 classes, on-line curriculium and final Capston Project."]
-  },
-  {
     "clickThrough":["/misc"],
     "imagePath": ["./assets/images/newsLaughlin.png"],
     "date": ["March 2020"],
@@ -29,6 +23,12 @@
     "imagePath": ["./assets/images/newsKarching.png"],
     "date": ["September 2019"],
     "description": ["Developed AWS data-parsing and in-app product surfacing."]
+  },
+  {
+    "clickThrough":["/noLink"],
+    "imagePath": ["./assets/images/news_harvardX.png"],
+    "date": ["August 2019"],
+    "description": ["Enrolled in a 9 classes, on-line curriculium and final Capston Project."]
   },
   {
     "clickThrough":["/misc"],
