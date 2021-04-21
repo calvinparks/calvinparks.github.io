@@ -7,7 +7,7 @@
     "demoWidth": ["650","650","650"],
     "imagePath": ["./assets/images/email_sentrySafe.png","./assets/images/HoosierEmail1.png","./assets/images/HoosierEmail2.png"],
     "title": ["SentrySafe","Indiana Lottery","Indiana Lottery"],
-    "description": ["Developer for marketing emails displaying a variety of products customized for each email recipient. MJML, HTML, inline-CSS, EmailOnAcid, Eloqua CRM","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS.","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS."]
+    "description": ["Developer for marketing emails displaying a variety of products customized for each email recipient. MJML, HTML, CSS, EmailOnAcid, Eloqua CRM","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS.","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS."]
   },{
     "clickThrough":["/emails","/misc","/nonnativeapps"],
     "demoPath": ["jamesbond","30aniversary","pgam"],
