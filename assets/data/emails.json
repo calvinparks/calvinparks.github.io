@@ -59,7 +59,7 @@
     "demoWidth": ["900","900","900"],
     "imagePath": ["./assets/images/email_hooknew.png","./assets/images/email_sentrySafe.png","./assets/images/email_laughlin.png"],
     "title": ["Indiana Lottery","MasterLock SentrySafe","Laughlin Constable"],
-    "description": ["Developer for marketing emails. HTML Tables, inline-CSS, Braze","Developer for marketing emails. HTML Tables, inline-CSS, Eloqua","Developer for marketing emails. HTML Tables, inline-CSS, Hubspot"]
+    "description": ["Developer for marketing emails. HTML Tables, inline-CSS, Braze CRM","Developer for marketing emails. HTML Tables, inline-CSS, Eloqua CRM","Developer for marketing emails. HTML Tables, inline-CSS, Hubspot CRM"]
   }
 
 ]
