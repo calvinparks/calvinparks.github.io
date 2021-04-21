@@ -2,12 +2,12 @@
   
   {
     "clickThrough":["/emails","/misc","/nonnativeapps"],
-    "demoPath": ["sentrysafe","gifting","cheer"],
+    "demoPath": ["UATP","gifting","cheer"],
     "demoHeight": ["0","0","0"],
     "demoWidth": ["650","650","650"],
-    "imagePath": ["./assets/images/email_sentrySafe.png","./assets/images/HoosierEmail1.png","./assets/images/HoosierEmail2.png"],
-    "title": ["SentrySafe","Indiana Lottery","Indiana Lottery"],
-    "description": ["Developer for marketing emails displaying a variety of products customized for each email recipient. MJML, HTML, CSS, EmailOnAcid, Eloqua CRM","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS.","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS."]
+    "imagePath": ["./assets/images/UATCEmail.png","./assets/images/HoosierEmail1.png","./assets/images/HoosierEmail2.png"],
+    "title": ["UATP","Indiana Lottery","Indiana Lottery"],
+    "description": ["Responsive email template for Universal Air Travel Plan. Deployed on the Hubspot Platform.  Developed using MJML, HTML, CSS.","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS.","Responsive email for the Indiana State Lottery that was deployed in Braze Customer Engagement Platform.  Developed using MJML, HTML, CSS."]
   },{
     "clickThrough":["/emails","/misc","/nonnativeapps"],
     "demoPath": ["jamesbond","30aniversary","pgam"],
@@ -54,12 +54,12 @@
   },
   {
     "clickThrough":["/emails","/misc","/nonnativeapps"],
-    "demoPath": ["whoknew","UATP","laughlin"],
+    "demoPath": ["whoknew","sentrysafe","laughlin"],
     "demoHeight": ["0","0","0"],
     "demoWidth": ["900","900","900"],
-    "imagePath": ["./assets/images/email_hooknew.png","./assets/images/UATCEmail.png","./assets/images/email_laughlin.png"],
-    "title": ["Indiana Lottery","UATP","Laughlin Constable"],
-    "description": ["Developer for marketing emails. HTML Tables, inline-CSS, Braze CRM","Responsive email template for Universal Air Travel Plan. Deployed on the Hubspot Platform.  Developed using MJML, HTML, CSS.","Developer for marketing emails. HTML Tables, inline-CSS, Hubspot CRM"]
+    "imagePath": ["./assets/images/email_hooknew.png","./assets/images/email_sentrySafe.png","./assets/images/email_laughlin.png"],
+    "title": ["Indiana Lottery","MasterLock SentrySafe","Laughlin Constable"],
+    "description": ["Developer for marketing emails. HTML Tables, inline-CSS, Braze CRM","Developer for marketing emails displaying a variety of products customized for each email recipient. MJML, HTML, CSS, EmailOnAcid, Eloqua CRM","Developer for marketing emails. HTML Tables, inline-CSS, Hubspot CRM"]
   }
 
 ]
