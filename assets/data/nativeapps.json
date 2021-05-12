@@ -18,10 +18,10 @@
     "description": ["Simulate the inheritance of blood types for each member of a family","A program that runs a plurality election","A program that runs a runoff election"]
   },
   {
-    "clickThrough":["https://github.com/calvinparks/birthdays","",""],
-    "imagePath": ["./assets/images/pythonprogramming.png","./assets/images/cprogramming.png","./assets/images/cprogramming.png"],
-    "title": ["Birthdays","",""],
-    "description": ["A web application to keep track of friends’ birthdays using using FLask, SQLite, Dajango, HTML, CSS and Javascript.","",""]
+    "clickThrough":["https://github.com/calvinparks/birthdays","https://github.com/calvinparks/degrees","https://github.com/calvinparks/tictactoe"],
+    "imagePath": ["./assets/images/pythonprogramming.png","./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png"],
+    "title": ["Birthdays","Degrees","Tic-Tac-Toe"],
+    "description": ["A web application to keep track of friends’ birthdays using using FLask, SQLite, Dajango, HTML, CSS and Javascript.","A program that determines how many 'degrees of separation' apart two actors are. Trace Node paths using recussion and a QueFrontier stack.","I wrote a Minimax algorithm that implemented an AI that plays Tic-Tac-Toe optimally."]
   }
 
 ]

@@ -12,10 +12,10 @@
     "description": ["Various marketing microsites. AJAX, JQuery, JavaScript, HTML, CSS, AS3, graphic design and processing.","Interactive training content. Adobe Animate, Photoshop, Premier, AS3, HTML5, CSS3, Greensock.","Project developend using: C, python, Flask, SQLite, HTML, JavaSript, Django and more"]
   },
   {
-    "clickThrough":["#datavisual","","#socialmedia"],
+    "clickThrough":["#datavisual","#documentation","#socialmedia"],
     "imagePath": ["./assets/images/category7.jpg","./assets/images/category8.jpg","./assets/images/category9.jpg"],
-    "title": ["Visual Data","Prototyping","Social Media"],
-    "description": ["Interactive animated charts using realtime data. HTML5, CSS3, JavaScript, HighCharts","Product Design, Tech Document Creation, Demo Development. Provisional Patent Submission.","Live event photo & video caputure & sharing. Wowza Media Server, PHP, FaceBook API, Adobe Air, AS3"]
+    "title": ["Visual Data","Documentation","Social Media"],
+    "description": ["Interactive animated charts using realtime data. HTML5, CSS3, JavaScript, HighCharts","Developer Guides, How-To Manuals, & other documents that I have written","Live event photo & video caputure & sharing. Wowza Media Server, PHP, FaceBook API, Adobe Air, AS3"]
   },{
     "clickThrough":["#video","","#eventkiosk"],
     "imagePath": ["./assets/images/category10.jpg","./assets/images/category11.jpg","./assets/images/category12.jpg"],
