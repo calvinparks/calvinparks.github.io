@@ -5,17 +5,26 @@
     "demoHeight": ["750","750","750"],
     "demoWidth": ["600","600","600"],
     "imagePath": ["./assets/images/documentation.jpg","./assets/images/documentation2.jpg","./assets/images/documentation.jpg"],
-    "title": ["Course Automation","Email Workflow","IN-APP Development"],
+    "title": ["Course Automation","Braze Workflow","IN-APP Development"],
     "description": ["Automated Course Guide Creation System for PC User Guide","MJML, HTML, CSS EMAIL development guide for Braze","HTML, CSS, JavaScript IN-APP development workflow"]
   },
   {
     "clickThrough":["/emails","/misc","/nonnativeapps"],
-    "demoPath": ["doc4","doc5",""],
+    "demoPath": ["doc4","doc5","doc6"],
     "demoHeight": ["750","750","750"],
     "demoWidth": ["600","600","600"],
     "imagePath": ["./assets/images/documentation2.jpg","./assets/images/documentation.jpg","./assets/images/documentation2.jpg"],
-    "title": ["How-To Reference","Avatar Generator","-"],
-    "description": [" How to import a document into Inkling-Habitat manual","Provisional patent  product description document",""]
+    "title": ["How-To Reference","Avatar Generator","Hubspot Workflow"],
+    "description": ["How to import a document into Inkling-Habitat manual","Provisional patent  product description document","Laughlin Constable Email Development Workflow for Hubspot"]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["doc7","doc8","doc9"],
+    "demoHeight": ["750","750","750"],
+    "demoWidth": ["600","600","600"],
+    "imagePath": ["./assets/images/documentation2.jpg","./assets/images/documentation.jpg","./assets/images/documentation2.jpg"],
+    "title": ["Banner Workflow","Product Design","Developer Notes"],
+    "description": ["Display Banner Production WorkFlow","Interactive Digital Book Design Document","El Camino Health Email Workflow and Tech Notes"]
   }
 
 ]
