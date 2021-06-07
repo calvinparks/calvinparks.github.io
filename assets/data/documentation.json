@@ -6,7 +6,7 @@
     "demoWidth": ["600","600","600"],
     "imagePath": ["./assets/images/documentation.jpg","./assets/images/documentation2.jpg","./assets/images/documentation.jpg"],
     "title": ["Course Automation","Braze Workflow","IN-APP Development"],
-    "description": ["Automated Course Guide Creation System for PC User Guide","MJML, HTML, CSS EMAIL development guide for Braze","HTML, CSS, JavaScript IN-APP development workflow"]
+    "description": ["Automated Course Guide Creation System for PC User Guide","MJML, HTML, CSS EMAIL development guide for Braze","HTML, CSS, JavaScript, Braze, IN-APP development workflow"]
   },
   {
     "clickThrough":["/emails","/misc","/nonnativeapps"],
