@@ -15,7 +15,7 @@
     "demoWidth": ["600","600","600"],
     "imagePath": ["./assets/images/documentation2.jpg","./assets/images/documentation.jpg","./assets/images/documentation2.jpg"],
     "title": ["How-To Reference","Avatar Generator","Hubspot Workflow"],
-    "description": ["How to import a document into Inkling-Habitat manual","Provisional patent  product description document","Laughlin Constable Email Development Workflow for Hubspot"]
+    "description": ["How to import a document into Inkling-Habitat manual","Provisional patent  product description document","Email Development Workflow for Hubspot"]
   },
   {
     "clickThrough":["/emails","/misc","/nonnativeapps"],
