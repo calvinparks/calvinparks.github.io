@@ -25,6 +25,15 @@
     "imagePath": ["./assets/images/documentation2.jpg","./assets/images/documentation.jpg","./assets/images/documentation2.jpg"],
     "title": ["Banner Workflow","Product Design","Developer Notes"],
     "description": ["Display Banner Production WorkFlow","Interactive Digital Book Design Document","El Camino Health Email Workflow and Tech Notes"]
+  },
+  {
+    "clickThrough":["/emails","/misc","/nonnativeapps"],
+    "demoPath": ["doc10","",""],
+    "demoHeight": ["750","750","750"],
+    "demoWidth": ["600","600","600"],
+    "imagePath": ["./assets/images/documentation2.jpg","./assets/images/documentation.jpg","./assets/images/documentation2.jpg"],
+    "title": ["Game Technical Doc","-","-"],
+    "description": ["Kellog Game Product Design Document","-","-"]
   }
 
 ]
