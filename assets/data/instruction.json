@@ -1,6 +1,6 @@
 [
   {
-    "clickThrough":["https://www.northropgrumman.com/MediaResources/MediaKits/IITSEC/Documents/JointKnowledgeOnline.pdf","http://www.gorlm.com/","https://www.abelsontaylor.com/"],
+    "clickThrough":["https://jko.jten.mil/videos/JKO-9-5_LMS_Release_Rollout_Video-20200612-FINAL-SD.mp4","http://www.gorlm.com/","https://www.abelsontaylor.com/"],
     "imagePath": ["./assets/images/DeptOfDefenceJointKnowledgeOnline.jpg","./assets/images/bpoil.jpg","./assets/images/mycamine.jpg"],
     "title": ["Dept of Defense","Trial Graphix","Mycamine"],
     "description": ["Developer for the Department of Defense online joint training website. JKO provides continuous, career-long development for staffs, Combatant Commands, Combat Support Agencies, and the Services. Adobe Animate, Adobe Photoshop, Adobe Illustrator.","Animator for BP Oil Spill Tutorial Aired on CSPAN. Adobe Flash","Developer for Video Player inside Mycamine IPad Pharmacutical Training APP slide content. HTML5, CSS3, JavaScript JQuery."]
