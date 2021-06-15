@@ -28,12 +28,12 @@
   },
   {
     "clickThrough":["/emails","/misc","/nonnativeapps"],
-    "demoPath": ["doc10","",""],
+    "demoPath": ["doc10","doc11",""],
     "demoHeight": ["750","750","750"],
     "demoWidth": ["600","600","600"],
     "imagePath": ["./assets/images/documentation2.jpg","./assets/images/documentation.jpg","./assets/images/documentation2.jpg"],
-    "title": ["Game Technical Doc","-","-"],
-    "description": ["Kellog Game Product Design Document","-","-"]
+    "title": ["Game Technical Doc","Northern Trust","-"],
+    "description": ["Kellog Game Product Design Document","SiteCatalyst Link Implementation Guide","-"]
   }
 
 ]
