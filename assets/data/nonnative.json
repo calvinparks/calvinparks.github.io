@@ -9,7 +9,7 @@
     "clickThrough":["https://www.qtmarketcenter.com","/nolink","https://www.karching.com"],
     "imagePath": ["./assets/images/mcQuotes.jpg","./assets/images/matchgame1.jpg","./assets/images/karchingmobile.png"],
     "title": ["QT Marketing","Match Game","Karching"],
-    "description": ["Developer for commodities trading App built with the Sencha Touch framework, JavaScript, HTML5 CSS.","Developer Avatar hosted match game application. Adobie Air, AS3.","Developer for custom webviews and Amazon product search API, WordPress, PHP, MySQL, Python, AWS, Google Cloud."]
+    "description": ["Developer for commodities trading App built with the Sencha Touch framework, Python, JavaScript, HTML5, CSS, Phonegap.","Developer Avatar hosted match game application. Adobie Air, AS3.","Developer for custom webviews and Amazon product search API, WordPress, PHP, MySQL, Python, AWS, Google Cloud."]
   },
   {
     "clickThrough":["/nolink","/nolink","/nolink"],
