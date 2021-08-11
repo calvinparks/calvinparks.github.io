@@ -22,6 +22,15 @@
     "imagePath": ["./assets/images/pythonprogramming.png","./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png"],
     "title": ["Birthdays","Degrees","Tic-Tac-Toe"],
     "description": ["A web application to keep track of friends’ birthdays using using FLask, SQLite, Dajango, HTML, CSS and Javascript.","A program that determines how many 'degrees of separation' apart two actors are. Trace Node paths using recussion and a QueFrontier stack.","I wrote a Minimax algorithm that implemented an AI that plays Tic-Tac-Toe optimally."]
+  },
+  {
+    "clickThrough":["https://github.com/calvinparks/knights","https://github.com/calvinparks/minesweeper","https://github.com/calvinparks/pagerank"],
+    "imagePath": ["./assets/images/pythonprogramming.png","./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png"],
+    "title": ["Knights","Minesweeper","pagerank"],
+    "description": ["Given a set of sentences spoken by each of the characters, determine, for each character, whether that character is a knight or a knave.","An AI to play Minesweeper using Propositional Logic for Knowledge Representation.","An AI to rank web pages by importance similar to Googles original search engine. This implementation uses an Iterative statistical Algorithm. It also verify the results via a Monte Carlo simulation."]
   }
+  
+  
+  
 
 ]
