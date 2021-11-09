@@ -27,10 +27,18 @@
     "clickThrough":["https://github.com/calvinparks/knights","https://github.com/calvinparks/minesweeper","https://github.com/calvinparks/pagerank"],
     "imagePath": ["./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png"],
     "title": ["Knights","Minesweeper","pagerank"],
-    "description": ["Given a set of sentences spoken by each of the characters, determine, for each character, whether that character is a knight or a knave.","An AI to play Minesweeper using Propositional Logic for Knowledge Representation.","An AI to rank web pages by importance similar to Googles original search engine. This implementation uses an Iterative statistical Algorithm. It also verify the results via a Monte Carlo simulation."]
-  }
-  
-  
-  
-
+    "description": ["Given a set of sentences spoken by each of the characters, using Propositional Logic, determine for each character, whether that character is a knight or a knave.","An AI to play Minesweeper using Propositional Logic for Knowledge Representation.","An AI to rank web pages by importance similar to Googles original search engine. This implementation uses an Iterative statistical Algorithm. It also verify the results via a Monte Carlo simulation."]
+  },
+  {
+    "clickThrough":["https://github.com/calvinparks/heredity","https://github.com/calvinparks/crossword","https://github.com/calvinparks/shopping"],
+    "imagePath": ["./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png"],
+    "title": ["Heredity","Crossword","Shopping"],
+    "description": ["An AI to assess the likelihood that a person will have a particular genetic trait using joint probability Markov Chain.","An AI to generate crossword puzzles which is actually a constraint satisification using a recursive Backtracking Search algrorithim.","An AI to predict whether online shopping customers will complete a purchase using the Scikit-learn: a free machine learning library for Python."]
+  },
+  {
+    "clickThrough":["https://github.com/calvinparks/nim","",""],
+    "imagePath": ["./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png"],
+    "title": ["NIM","-","-"],
+    "description": ["An AI that teaches itself to play the Nim game through reinforcement learning by playing it's self 10.000 times. It then becomes an expert AI player. Thia project was implemented using the Q-learning formula.","-","-"]
+  } 
 ]
