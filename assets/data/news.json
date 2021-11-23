@@ -2,6 +2,12 @@
 [
   {
     "clickThrough":["/nonnative"],
+    "imagePath": ["./assets/images/news_harvardX_2.png"],
+    "date": ["December 2021"],
+    "description": ["Artificial Intelligence Professional Certificate. Estimated December 2021"]
+  },
+  {
+    "clickThrough":["/nonnative"],
     "imagePath": ["./assets/images/news_HooKnewTrivia.png"],
     "date": ["Febuary 2021"],
     "description": ["Developed Indiana Lottery weekly Trivia InApp Animated Game"]
