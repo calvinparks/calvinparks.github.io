@@ -36,9 +36,15 @@
     "description": ["An AI to assess the likelihood that a person will have a particular genetic trait using joint probability Markov Chain.","An AI to generate crossword puzzles which is actually a constraint satisification using a recursive Backtracking Search algrorithim.","An AI to predict whether online shopping customers will complete a purchase using the Scikit-learn: a free machine learning library for Python."]
   },
   {
-    "clickThrough":["https://github.com/calvinparks/nim","",""],
+    "clickThrough":["https://github.com/calvinparks/nim","https://github.com/calvinparks/traffic","https://github.com/calvinparks/parser"],
     "imagePath": ["./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png"],
-    "title": ["NIM","-","-"],
-    "description": ["An AI that teaches itself to play the Nim game through reinforcement learning by playing it's self 10.000 times. It then becomes an expert AI player. Thia project was implemented using the Q-learning formula.","-","-"]
-  } 
+    "title": ["NIM","Traffic","Parser"],
+    "description": ["An AI that teaches itself to play the Nim game through reinforcement learning by playing it's self 10.000 times. It then becomes an expert AI player. Thia project was implemented using the Q-learning formula.","Created an AI to identify which traffic sign appears in a photograph using TensorFlow to build a neural network to classify road signs based on an image of those signs.","An AI to parse sentences and extract noun phrases using a context-free grammar formalism to parse English sentences to determine their structure"]
+  },
+  {
+    "clickThrough":["https://github.com/calvinparks/questions","",""],
+    "imagePath": ["./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png"],
+    "title": ["Questions","-","-"],
+    "description": ["An AI to answer questions using tf-idf to rank documents based both on term frequency for words in the query as well as inverse document frequency for words in the query.","-","-"]
+  }  
 ]
