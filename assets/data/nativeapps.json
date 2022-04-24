@@ -45,6 +45,6 @@
     "clickThrough":["https://github.com/calvinparks/questions","",""],
     "imagePath": ["./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png","./assets/images/pythonprogrammingAI.png"],
     "title": ["Questions","-","-"],
-    "description": ["An AI to answer questions using tf-idf to rank documents based both on term frequency for words in the query as well as inverse document frequency for words in the query.","-","-"]
+    "description": ["An AI to answer questions using tf-idf to rank documents based both on term frequency for words in the query as well as inverse document frequency for words in the query.","",""]
   }  
 ]
