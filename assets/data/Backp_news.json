@@ -3,6 +3,11 @@
     {
     "clickThrough":["/"],
     "imagePath": ["./assets/images/news_harvardX_2.png"],
+    "date": ["March 2023"],
+    "description": ["Enrolled in Professional Certificate in Python. In Progress"]
+  },{
+    "clickThrough":["/"],
+    "imagePath": ["./assets/images/news_harvardX_2.png"],
     "date": ["March 2022"],
     "description": ["Professional Certificate in Artificial Intelligence. Achieved: Mar, 2022"]
   },
